@@ -1,0 +1,321 @@
+{
+  "meta": {
+    "title": "Parc du Thabor | Un joyau vert à Rennes - Guide touristique officiel",
+    "description": "Découvrez le Parc du Thabor à Rennes : 10 hectares de jardins magnifiques, roseraie, serres tropicales, cages à oiseaux et espace de jeux. Un site incontournable en Bretagne."
+  },
+  "header": {
+    "home": "Accueil",
+    "gallery": "Galerie",
+    "reviews": "Avis",
+    "map": "Carte",
+    "backToHome": "Retour à l'accueil"
+  },
+  "hero": {
+    "title": "Parc du Thabor",
+    "subtitle": "Un joyau vert au cœur de Rennes, alliant jardins à la française et à l'anglaise",
+    "rating": "4.7(13,604)",
+    "reviewCount": "13,604 avis",
+    "type": "Parc municipal · Jardin botanique",
+    "openMaps": "Voir sur la carte"
+  },
+  "intro": {
+    "title": "Découvrir le Parc du Thabor",
+    "description": "Situé en plein cœur de Rennes, le Parc du Thabor est un véritable havre de paix de 10 hectares, considéré comme l'un des plus beaux jardins de France. Autrefois un jardin monastique appartenant à l'abbaye Saint-Melaine, il a été aménagé au XIXe siècle par l'architecte paysagiste Denis Bühler.\n\nLe parc se divise en plusieurs espaces distincts : un jardin à la française géométrique, un jardin à l'anglaise plus sauvage, une magnifique roseraie comptant plus de 2 000 rosiers, des serres tropicales abritant des plantes exotiques, et une volière où vivent des oiseaux de diverses espèces.\n\nL'entrée principale se fait par la Place Saint-Mélaine. L'architecture du parc reflète le savoir-faire paysager français, tout en intégrant des éléments botaniques variés. C'est un lieu prisé des Rennais et des touristes pour la promenade, le repos et la découverte de la flore.\n\nLe parc dispose également d'un café-restaurant ouvert durant les beaux jours, et d'espaces de jeux pour les enfants. De nombreux événements culturels y sont organisés tout au long de l'année.",
+    "visitGuide": {
+      "title": "Conseils de visite",
+      "items": [
+        "Ouvert tous les jours, accès libre et gratuit",
+        "Idéal pour un pique-nique ou une promenade en famille",
+        "La roseraie est magnifique de mai à octobre",
+        "Les serres tropicales se visitent gratuitement aux heures d'ouverture",
+        "Accès facile depuis le centre-ville de Rennes à pied ou en transports"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Points forts",
+      "items": [
+        "10 hectares de jardins classés parmi les plus beaux de France",
+        "Roseraie avec plus de 2 000 rosiers et 150 variétés",
+        "Serres tropicales abritant des plantes exotiques et des cactus",
+        "Cages à oiseaux avec diverses espèces d'oiseaux",
+        "Jardin botanique avec des essences rares et un arboretum"
+      ]
+    }
+  },
+  "knowledge": {
+    "title": "L'histoire du Parc du Thabor",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Histoire et création",
+        "content": "Le site du Thabor a une histoire qui remonte au Moyen Âge. À l'origine, c'était le jardin de l'abbaye Saint-Melaine, un lieu de culture maraîchère et fruitière pour les moines bénédictins. Après la Révolution française, le jardin est devenu propriété de la municipalité de Rennes.\n\nAu XIXe siècle, sous l'impulsion du maire de l'époque, le jardin est transformé en un parc public. L'architecte paysagiste Denis Bühler, célèbre pour ses réalisations dans de nombreuses villes françaises, est chargé d'aménager ce qui deviendra le Parc du Thabor tel que nous le connaissons aujourd'hui. Les travaux se sontétalés de 1866 à 1868."
+      },
+      {
+        "id": "meaning",
+        "title": "Signification culturelle",
+        "content": "Le nom « Thabor » fait référence au mont Thabor biblique, une montagne de Galilée où selon les Évangiles, la Transfiguration du Christ a eu lieu. Ce nom a été donné au parc en référence à cette dimension spirituelle et paisible.\n\nAujourd'hui, le Parc du Thabor est bien plus qu'un simple jardin public. C'est un lieu de vie pour les Rennais, un espace de détente et de convivialité. Il incarne l'art de vivre breton et l'attachement des habitants de Rennes à leur patrimoine vert. Le parc est devenu un symbole de l'engagement écologique de la ville."
+      },
+      {
+        "id": "design",
+        "title": "Conception et architecture",
+        "content": "Le génie de Denis Bühler a consisté à articuler deux styles de jardins contrastés mais complémentaires :\n\n1. Le jardin à la française : géométrique, ordonné, avec des buis taillés et des perspectives axées sur l'église Saint-Melaine\n2. Le jardin à l'anglaise : plus libre, imitant la nature sauvage, avec un plan d'eau et des essences d'arbres variées\n\nCette dualité est la signature du parc. On y trouve également une orangerie du XVIIIe siècle, des serres du XIXe siècle, et de nombreux éléments d'architecture paysagère qui en font un site classé."
+      },
+      {
+        "id": "botanical",
+        "title": "Richesses botaniques",
+        "content": "Le Parc du Thabor n'est pas seulement un lieu de promenade, c'est aussi un jardin botanique riche de plusieurs milliers d'espèces végétales. La roseraie, créée dans les années 1960, est l'une des plus belles de l'Ouest de la France.\n\nLes serres tropicales, restaurées récemment, abritent des collections de plantes des zones chaudes : cactus, orchidées, bananiers, et bien d'autres espèces fascinantes. L'arboretum compte des arbres centenaires et des essences rares, offrant un véritable inventaire de la biodiversité végétale."
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "Informations pratiques",
+    "officialName": "Nom officiel",
+    "officialNameValue": "Parc du Thabor",
+    "type": "Type de lieu",
+    "typeValue": "Parc municipal, Jardin botanique, Site classé",
+    "country": "Pays",
+    "countryValue": "France",
+    "city": "Ville",
+    "cityValue": "Rennes",
+    "googleRating": "Note Google",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "addressValue": "Pl. Saint-Mélaine, 35000 Rennes, France"
+  },
+  "hours": {
+    "title": "Horaires et informations de visite",
+    "park": "Accès au parc",
+    "parkTime": "Ouvert tous les jours de l'aube au crépuscule (horaires variables selon saison)",
+    "bestTime": "Meilleur moment pour visiter",
+    "bestTimeSpring": "Printemps (avril-juin) : Roseraie en fleur, temps doux et agréable",
+    "bestTimeSummer": "Été (juillet-août) : Ombrage et fraîcheur, picnics recommandés",
+    "bestTimeAutumn": "Automne (septembre-novembre) : Couleurs magnifiques, jours plus calmes",
+    "bestTimeWinter": "Hiver (décembre-mars) : Ambiance paisible, architecture des arbres visible",
+    "tip": "Les serres ferment à 17h en hiver et 19h en été"
+  },
+  "tickets": {
+    "title": "Tarifs",
+    "park": "Accès au parc",
+    "parkPrice": "Entrée gratuite, accès libre toute l'année",
+    "parking": "Stationnement",
+    "parkingPrice": "Parking payant à proximité, transports en commun recommandés",
+    "greenhouse": "Serres tropicales",
+    "greenhousePrice": "Entrée gratuite, ouvert aux heures d'ouverture du parc",
+    "guided": "Visites guidées",
+    "guidedPrice": "Disponibles via l'Office de Tourisme de Rennes Métropole"
+  },
+  "transport": {
+    "title": "Comment s'y rendre",
+    "fromCenter": "Depuis le centre-ville (Place de la Mairie)",
+    "fromCenterDesc": "À 10 minutes à pied. Suivre les panneaux « Parc Thabor » ou « Saint-Mélaine ». Traversez la Vilaine par le Pont de Strasbourg, puis remontez vers la Place Saint-Mélaine.",
+    "fromStation": "Depuis la Gare de Rennes",
+    "fromStationDesc": "À 20 minutes à pied ou 10 minutes en bus (lignes C1, C2, 56, arrêt « Saint-Mélaine »). Sortie nord de la gare, traverser le centre historique.",
+    "publicTransport": "Transports en commun",
+    "publicTransportDesc": "Métro ligne a : arrêt « Sainte-Anne », puis 5 min à pied. Bus STAR : nombreuses lignes desservent l'arrêt « Saint-Mélaine » à proximité du parc.",
+    "walking": "À pied",
+    "walkingDesc": "Parfaitement intégré au centre-ville de Rennes. Combinez avec la visite du centre historique, de la Cathédrale Saint-Pierre et du Parlement de Bretagne.",
+    "driving": "En voiture et stationnement",
+    "drivingDesc": "Stationnement limité dans le quartier. Parkings conseillés : Parking « Saint-Mélaine » ou Parking « Charles de Gaulle ». Le parc est accessible en voiture, mais le centre historique de Rennes est très piéton."
+  },
+  "route": {
+    "title": "Itinéraire de visite recommandé",
+    "overview": "Entrée par la Place Saint-Mélaine, visitez d'abord le jardin à la française, poursuivez par la roseraie, descendez vers le jardin à l'anglaise et le plan d'eau, visitez les serres tropicales, et terminez par l'arboretum. Prévoyez 2 à 3 heures pour une visite complète.",
+    "steps": [
+      "Entrée principale par la Place Saint-Mélaine, admirez la façade de l'église Saint-Melaine",
+      "Parcourez le jardin à la française avec ses buis taillés et ses perspectives",
+      "Visitez la roseraie (meilleure période : mai à octobre)",
+      "Descendez vers le jardin à l'anglaise et son plan d'eau aux canards",
+      "Explorez les serres tropicales (orchidées, cactus, plantes exotiques)",
+      "Visitez la volière et observez les diverses espèces d'oiseaux",
+      "Poursuivez vers l'arboretum et ses arbres centenaires",
+      "Faites une pause au café du parc (ouvert en saison)",
+      "Terminez par le jardin botanique et ses essences rares",
+      "Sortie par l'avenue Jean Janvier, direction centre-ville"
+    ]
+  },
+  "photoSpots": {
+    "title": "Lieux photo",
+    "spots": [
+      {
+        "name": "Roseraie",
+        "desc": "La roseraie avec plus de 2 000 rosiers, magnifique au printemps et en été"
+      },
+      {
+        "name": "Jardin à la française",
+        "desc": "Perspectives géométriques parfaites, idéales pour la photographie architecturale"
+      },
+      {
+        "name": "Serres tropicales",
+        "desc": "Architecture de verre magnifique, intérieur luxuriant avec plantes exotiques"
+      },
+      {
+        "name": "Plan d'eau",
+        "desc": "Le jardin à l'anglaise avec son plan d'eau, les canards et les arbres centenaires"
+      },
+      {
+        "name": "Orangerie",
+        "desc": "Bâtiment historique du XVIIIe siècle, cadre élégant pour les photos"
+      }
+    ]
+  },
+  "hotels": {
+    "title": "Hébergement",
+    "hotels": [
+      {
+        "name": "Hôtel Mercure Rennes Centre Place de Bretagne",
+        "desc": "Hôtel 4 étoiles au centre de Rennes, élégant, excellent service, 10 min à pied du Thabor",
+        "price": "~€110-160/nuit"
+      },
+      {
+        "name": "Best Western Plus Hôtel Isidore",
+        "desc": "Hôtel boutique au design contemporain, proche du centre, 15 min à pied du parc",
+        "price": "~€90-130/nuit"
+      },
+      {
+        "name": "Hôtel Ibis Rennes Centre Gare",
+        "desc": "Option économique, propre et confortable, emplacement imbattable près de la gare",
+        "price": "~€65-95/nuit"
+      },
+      {
+        "name": "Airbnb dans le centre historique",
+        "desc": "Expérience authentique de quartier, atmosphère locale, 10 min à pied du Thabor",
+        "price": "~€50-90/nuit"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Galerie photos",
+    "subtitle": "Parc du Thabor - Joyau vert de Rennes",
+    "captions": [
+      "Roseraie en fleur",
+      "Jardin à la française",
+      "Serres tropicales",
+      "Plan d'eau et canards",
+      "Orangerie historique",
+      "Arboretum centenaire",
+      "Cages à oiseaux",
+      "Jardin botanique"
+    ],
+    "viewAll": "Voir sur Google Maps",
+    "showAll": "Voir toutes les photos",
+    "showLess": "Voir moins"
+  },
+  "reviews": {
+    "title": "Avis des visiteurs",
+    "declaration": "Les commentaires des visiteurs peuvent être consultés via Google Maps (lien externe).",
+    "moreReviews": "Voir plus d'avis sur Google Maps",
+    "items": [
+      {
+        "name": "Marie Dupont",
+        "date": "Mai 2026",
+        "rating": 5,
+        "text": "Un parc absolument magnifique ! La roseraie est exceptionnelle en mai-juin. Un vrai havre de paix en plein centre-ville. Je recommande vivement !"
+      },
+      {
+        "name": "Jean Lefevre",
+        "date": "Avril 2026",
+        "rating": 5,
+        "text": "Découvert par hasard en me promenant. Quelle belle surprise ! L'architecture des jardins est superbe. À ne pas manquer si vous visitez Rennes."
+      },
+      {
+        "name": "Sophie Martin",
+        "date": "Mars 2026",
+        "rating": 5,
+        "text": "Magnifique parc avec une belle diversité de plantes. C'est gratuit et ouvert à tous. Nous avons combiné avec la visite du centre historique - parfait pour une journée à Rennes !"
+      },
+      {
+        "name": "Pierre Leclerc",
+        "date": "Février 2026",
+        "rating": 5,
+        "text": "En tant que Rennais, le Thabor est mon parc préféré. Il représente le vrai Rennes - vert, élégant et accueillant. Un joyau de la ville."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "Comment s'y rendre",
+    "subtitle": "Pl. Saint-Mélaine, 35000 Rennes, France",
+    "openMaps": "Voir sur Google Maps"
+  },
+  "footer": {
+    "rights": "© 2026 Parc du Thabor Association d'information touristique indépendante · Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "cookies": "Paramètres des cookies",
+    "officialResourcesTitle": "Ressources et informations officielles",
+    "officialLinks": {
+      "rennes": "Rennes Métropole",
+      "brittany": "Région Bretagne",
+      "illeVilaine": "Préfecture d'Ille-et-Vilaine",
+      "franceCulture": "Culture.gouv.fr",
+      "rennesTourism": "Office de Tourisme de Rennes"
+    },
+    "disclaimer": "Ce site est un projet d'information touristique tiers indépendant. Nous ne sommes affiliés à aucune administration locale ou institution officielle."
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour : Mai 2026",
+    "sections": [
+      {
+        "heading": "1. Collecte d'informations",
+        "content": "Nous ne collectons généralement pas activement d'informations personnelles identifiables auprès des utilisateurs. Toute information fournie par vous via des formulaires de contact ou des e-mails sera strictement confidentielle."
+      },
+      {
+        "heading": "2. Utilisation des informations",
+        "content": "Les informations que nous collectons sont utilisées uniquement pour fournir, maintenir et améliorer nos services, et pour communiquer avec vous. Nous ne vendons ni ne partageons vos informations personnelles avec des tiers à des fins de marketing."
+      },
+      {
+        "heading": "3. Cookies et suivi",
+        "content": "Nous utilisons des cookies et des technologies de suivi similaires pour suivre l'activité sur notre site Web et conserver certaines informations. Vous pouvez demander à votre navigateur de refuser tous les cookies ou d'indiquer quand un cookie est envoyé."
+      },
+      {
+        "heading": "4. Sécurité des données",
+        "content": "La sécurité de vos données nous tient à cœur. Nous utilisons des moyens commercialement acceptables pour protéger vos données personnelles, bien qu'aucune méthode de transmission sur Internet ne soit sécurisée à 100 %."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Conditions d'utilisation",
+    "lastUpdated": "Dernière mise à jour : Mai 2026",
+    "sections": [
+      {
+        "heading": "1. Acceptation des conditions",
+        "content": "En accédant et en utilisant ce site Web, vous acceptez d'être lié par ces conditions d'utilisation. Si vous n'êtes pas d'accord avec une partie quelconque des conditions, vous ne pouvez pas accéder au service."
+      },
+      {
+        "heading": "2. Utilisation du service",
+        "content": "Ce site Web est un projet d'information touristique tiers indépendant. Les informations fournies sont uniquement à des fins d'information générale. Vous acceptez d'utiliser le site de manière responsable et légale."
+      },
+      {
+        "heading": "3. Propriété intellectuelle",
+        "content": "Tout le contenu de ce site Web, y compris les textes, les images et les logos, est la propriété du propriétaire du site Web, sauf indication contraire. Toute utilisation, reproduction ou distribution non autorisée est strictement interdite."
+      },
+      {
+        "heading": "4. Limitation de responsabilité",
+        "content": "Nous ne pouvons être tenus responsables de tout dommage direct, indirect, accessoire ou consécutif résultant de l'utilisation ou de l'incapacité d'utiliser ce site Web ou des informations qui y sont contenues."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Paramètres des cookies",
+    "description": "Gérez vos préférences en matière de cookies.",
+    "essential": {
+      "title": "Cookies essentiels",
+      "description": "Nécessaires au fonctionnement de base du site Web.",
+      "badge": "Toujours actif"
+    },
+    "analytics": {
+      "title": "Cookies analytiques",
+      "description": "Nous aident à comprendre comment les visiteurs interagissent avec le site."
+    },
+    "marketing": {
+      "title": "Cookies marketing",
+      "description": "Utilisés pour suivre les visiteurs sur les sites Web."
+    },
+    "save": "Enregistrer les préférences",
+    "saved": "Préférences enregistrées !"
+  },
+  "officialManagement": {
+    "title": "À propos du Parc du Thabor",
+    "text": "Le Parc du Thabor est un magnifique parc public situé en plein cœur de Rennes, aménagé au XIXe siècle par l'architecte paysagiste Denis Bühler. D'une superficie de 10 hectares, il combine un jardin à la française géométrique et un jardin à l'anglaise plus sauvage.\n\nLe parc est géré par la Ville de Rennes et constitue un élément important du patrimoine vert de la capitale bretonne. Il accueille chaque année des centaines de milliers de visiteurs, séduits par la beauté de sa roseraie, de ses serres tropicales et de son arboretum."
+  }
+}
