@@ -63,22 +63,6 @@ export default function TicketsSection() {
             </div>
           </div>
         </div>
-
-        {/* Guided Tour */}
-        <div
-          className="mt-6 rounded-xl p-5 flex items-start gap-4"
-          style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--accent)' }}
-        >
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="2" className="flex-shrink-0 mt-0.5">
-            <circle cx="12" cy="12" r="10"/>
-            <line x1="12" y1="16" x2="12" y2="12"/>
-            <line x1="12" y1="8" x2="12.01" y2="8"/>
-          </svg>
-          <div>
-            <p className="font-medium" style={{ color: 'var(--text-primary)' }}>{t('guided')}</p>
-            <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>{t('guidedPrice')}</p>
-          </div>
-        </div>
       </div>
     </section>
   );

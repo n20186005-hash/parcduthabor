@@ -27,6 +27,14 @@ export default function TransportSection() {
       ),
     },
     {
+      key: 'fromAirport',
+      icon: (
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-.5-.5-2.5 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.2-1.1.5l-1.3 1.3c-.2.2-.1.6.2.8L12 12l-3.2 3.2-2.7-.9c-.3-.1-.6.1-.8.3l-1.6 1.6c-.2.2-.2.5 0 .7L8 19l2.2 4.2c.2.2.5.2.7 0l1.6-1.6c.2-.2.4-.5.3-.8l-.9-2.7L12 12l8.2 9.4c.2.3.6.4.8.2l1.3-1.3c.3-.2.6-.6.5-1.1z"/>
+        </svg>
+      ),
+    },
+    {
       key: 'publicTransport',
       icon: (
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">

@@ -98,9 +98,9 @@
     "park": "Park Entry",
     "parkPrice": "Free entry, open year-round",
     "parking": "Parking",
-    "parkingPrice": "Paid parking nearby, public transport recommended",
-    "guided": "Guided Tours",
-    "guidedPrice": "Available through Rennes tourist office"
+    "parkingPrice": "Paid parking nearby, public transport highly recommended",
+    "greenhouse": "Tropical Greenhouses",
+    "greenhousePrice": "Free entry, open during park hours"
   },
   "transport": {
     "title": "How to Get Here",
@@ -108,6 +108,8 @@
     "fromCenterDesc": "10 minutes on foot. Follow signs for 'Parc Thabor' or 'Saint-Mélaine'. Cross Pont de Strasbourg, then head towards Place Saint-Mélaine.",
     "fromStation": "From Rennes Train Station",
     "fromStationDesc": "20 minutes on foot or 10 minutes by bus (lines C1, C2, 56, stop at 'Saint-Mélaine'). Exit from north side of station, cross historic center.",
+    "fromAirport": "From Rennes Bretagne Airport",
+    "fromAirportDesc": "Take bus C6 to the city center (about 20 mins), then transfer to Metro Line A to 'Sainte-Anne', 5 mins on foot.",
     "publicTransport": "Public Transport",
     "publicTransportDesc": "Metro line A: stop at 'Sainte-Anne', then 5 minutes on foot. STAR buses: many bus lines stop at 'Saint-Mélaine' near the park.",
     "walking": "Walking",
@@ -160,23 +162,23 @@
     "title": "Accommodation",
     "hotels": [
       {
-        "name": "Hotel Mercure Rennes Centre Place de Bretagne",
-        "desc": "4-star hotel in Rennes center, elegant, excellent service, 10 min walk to Thabor",
+        "name": "City Center Upscale Hotels",
+        "desc": "Various upscale accommodation options in Rennes center, elegant with excellent service, 10 min walk to Thabor.",
         "price": "~€110-160/night"
       },
       {
-        "name": "Best Western Plus Hotel Isidore",
-        "desc": "Boutique hotel with contemporary design, close to center, 15 min walk to park",
+        "name": "Boutique Design Hotels",
+        "desc": "Contemporary design boutique hotels close to the center, fully equipped, 15 min walk to the park.",
         "price": "~€90-130/night"
       },
       {
-        "name": "Ibis Rennes Centre Gare",
-        "desc": "Budget-friendly option, clean and comfortable, unbeatable location",
+        "name": "Budget Hotels Near Train Station",
+        "desc": "Budget-friendly options near the train station, clean and comfortable, unbeatable location for transit.",
         "price": "~€65-95/night"
       },
       {
-        "name": "Airbnb in historic center",
-        "desc": "Authentic neighborhood experience, local atmosphere, 10 min walk to Thabor",
+        "name": "Historic Center Guesthouses",
+        "desc": "Authentic neighborhood experience with local atmosphere, 10 min walk to Thabor.",
         "price": "~€50-90/night"
       }
     ]

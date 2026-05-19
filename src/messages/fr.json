@@ -98,11 +98,9 @@
     "park": "Accès au parc",
     "parkPrice": "Entrée gratuite, accès libre toute l'année",
     "parking": "Stationnement",
-    "parkingPrice": "Parking payant à proximité, transports en commun recommandés",
+    "parkingPrice": "Parking payant à proximité, transports en commun fortement recommandés",
     "greenhouse": "Serres tropicales",
-    "greenhousePrice": "Entrée gratuite, ouvert aux heures d'ouverture du parc",
-    "guided": "Visites guidées",
-    "guidedPrice": "Disponibles via l'Office de Tourisme de Rennes Métropole"
+    "greenhousePrice": "Entrée gratuite, ouvert aux heures d'ouverture du parc"
   },
   "transport": {
     "title": "Comment s'y rendre",
@@ -110,6 +108,8 @@
     "fromCenterDesc": "À 10 minutes à pied. Suivre les panneaux « Parc Thabor » ou « Saint-Mélaine ». Traversez la Vilaine par le Pont de Strasbourg, puis remontez vers la Place Saint-Mélaine.",
     "fromStation": "Depuis la Gare de Rennes",
     "fromStationDesc": "À 20 minutes à pied ou 10 minutes en bus (lignes C1, C2, 56, arrêt « Saint-Mélaine »). Sortie nord de la gare, traverser le centre historique.",
+    "fromAirport": "Depuis l'aéroport de Rennes Bretagne",
+    "fromAirportDesc": "Prenez le bus C6 jusqu'au centre-ville (environ 20 min), puis prenez le métro ligne A jusqu'à « Sainte-Anne », à 5 min à pied.",
     "publicTransport": "Transports en commun",
     "publicTransportDesc": "Métro ligne a : arrêt « Sainte-Anne », puis 5 min à pied. Bus STAR : nombreuses lignes desservent l'arrêt « Saint-Mélaine » à proximité du parc.",
     "walking": "À pied",
@@ -162,23 +162,23 @@
     "title": "Hébergement",
     "hotels": [
       {
-        "name": "Hôtel Mercure Rennes Centre Place de Bretagne",
-        "desc": "Hôtel 4 étoiles au centre de Rennes, élégant, excellent service, 10 min à pied du Thabor",
+        "name": "Hôtels haut de gamme en centre-ville",
+        "desc": "Plusieurs options d'hébergement haut de gamme au centre de Rennes, élégants avec un excellent service, à 10 min à pied du Thabor.",
         "price": "~€110-160/nuit"
       },
       {
-        "name": "Best Western Plus Hôtel Isidore",
-        "desc": "Hôtel boutique au design contemporain, proche du centre, 15 min à pied du parc",
+        "name": "Hôtels de charme et design",
+        "desc": "Hôtels de charme au design contemporain proches du centre, toutes commodités, à 15 min à pied du parc.",
         "price": "~€90-130/nuit"
       },
       {
-        "name": "Hôtel Ibis Rennes Centre Gare",
-        "desc": "Option économique, propre et confortable, emplacement imbattable près de la gare",
+        "name": "Hôtels économiques près de la gare",
+        "desc": "Options économiques près de la gare, propres et confortables, emplacement idéal pour les transits.",
         "price": "~€65-95/nuit"
       },
       {
-        "name": "Airbnb dans le centre historique",
-        "desc": "Expérience authentique de quartier, atmosphère locale, 10 min à pied du Thabor",
+        "name": "Maisons d'hôtes du centre historique",
+        "desc": "Expérience authentique avec une atmosphère locale, à 10 min à pied du Thabor.",
         "price": "~€50-90/nuit"
       }
     ]
