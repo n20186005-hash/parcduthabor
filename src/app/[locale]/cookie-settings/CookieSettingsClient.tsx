@@ -2,6 +2,12 @@
 
 import { useTranslations, useLocale } from 'next-intl';
 import { useState, useEffect } from 'react';
+import {
+  readStoredPrefs,
+  storePrefs,
+  applyConsent,
+  sendPageView,
+} from '@/lib/analytics';
 
 function CookieToggle({
   label,
@@ -53,22 +59,25 @@ export default function CookieSettingsClient() {
   const t = useTranslations('cookieSettings');
   const ht = useTranslations('header');
   const locale = useLocale();
-  const homeHref = locale === 'it' ? '/' : `/${locale}`;
+  const homeHref = `/${locale}`;
 
   const [analytics, setAnalytics] = useState(false);
   const [marketing, setMarketing] = useState(false);
   const [saved, setSaved] = useState(false);
 
   useEffect(() => {
-    try {
-      const prefs = JSON.parse(localStorage.getItem('cookiePrefs') || '{}');
-      if (prefs.analytics) setAnalytics(true);
-      if (prefs.marketing) setMarketing(true);
-    } catch {}
+    const stored = readStoredPrefs();
+    if (stored) {
+      setAnalytics(stored.analytics);
+      setMarketing(stored.marketing);
+    }
   }, []);
 
   function handleSave() {
-    localStorage.setItem('cookiePrefs', JSON.stringify({ analytics, marketing }));
+    const prefs = { analytics, marketing };
+    storePrefs(prefs);
+    const reopened = applyConsent(prefs);
+    if (reopened) sendPageView();
     setSaved(true);
     setTimeout(() => setSaved(false), 2000);
   }

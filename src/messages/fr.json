@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Parc du Thabor | Un joyau vert à Rennes - Guide touristique officiel",
-    "description": "Découvrez le Parc du Thabor à Rennes : 10 hectares de jardins magnifiques, roseraie, serres tropicales, cages à oiseaux et espace de jeux. Un site incontournable en Bretagne."
+    "title": "Parc du Thabor Rennes | N°1 des activités & visites à Rennes (Gratuit)",
+    "description": "Que faire à Rennes ? Visitez le Parc du Thabor : 10 hectares de jardins magnifiques, roseraie, volière et événements. Entrée gratuite au cœur de Rennes."
   },
   "header": {
     "home": "Accueil",
@@ -11,7 +11,7 @@
     "backToHome": "Retour à l'accueil"
   },
   "hero": {
-    "title": "Parc du Thabor",
+    "title": "Parc du Thabor (Rennes)",
     "subtitle": "Un joyau vert au cœur de Rennes, alliant jardins à la française et à l'anglaise",
     "rating": "4.7(13,604)",
     "reviewCount": "13,604 avis",
@@ -19,7 +19,8 @@
     "openMaps": "Voir sur la carte"
   },
   "intro": {
-    "title": "Découvrir le Parc du Thabor",
+    "title": "À propos du Parc du Thabor (Rennes)",
+    "lead": "Bienvenue au **Parc du Thabor**, largement reconnu comme le **poumon vert de Rennes**. Situé au cœur de **Rennes**, en **Bretagne**, **France**, ce parc et jardin botanique du XVIIIe siècle est l'un des plus beaux jardins publics du pays et constitue un lieu de référence pour les voyageurs visitant la région.",
     "description": "Situé en plein cœur de Rennes, le Parc du Thabor est un véritable havre de paix de 10 hectares, considéré comme l'un des plus beaux jardins de France. Autrefois un jardin monastique appartenant à l'abbaye Saint-Melaine, il a été aménagé au XIXe siècle par l'architecte paysagiste Denis Bühler.\n\nLe parc se divise en plusieurs espaces distincts : un jardin à la française géométrique, un jardin à l'anglaise plus sauvage, une magnifique roseraie comptant plus de 2 000 rosiers, des serres tropicales abritant des plantes exotiques, et une volière où vivent des oiseaux de diverses espèces.\n\nL'entrée principale se fait par la Place Saint-Mélaine. L'architecture du parc reflète le savoir-faire paysager français, tout en intégrant des éléments botaniques variés. C'est un lieu prisé des Rennais et des touristes pour la promenade, le repos et la découverte de la flore.\n\nLe parc dispose également d'un café-restaurant ouvert durant les beaux jours, et d'espaces de jeux pour les enfants. De nombreux événements culturels y sont organisés tout au long de l'année.",
     "visitGuide": {
       "title": "Conseils de visite",
@@ -79,6 +80,9 @@
     "cityValue": "Rennes",
     "googleRating": "Note Google",
     "phone": "Téléphone",
+    "phoneValue": "+33 2 23 62 19 40",
+    "plusCode": "Plus Code",
+    "plusCodeValue": "487J+Q6 Rennes, France",
     "address": "Adresse",
     "addressValue": "Pl. Saint-Mélaine, 35000 Rennes, France"
   },
@@ -196,6 +200,26 @@
       "Cages à oiseaux",
       "Jardin botanique"
     ],
+    "altTexts": [
+      "Parc du Thabor - Entrée principale",
+      "Parc du Thabor - Jardin à la française",
+      "Parc du Thabor - Roseraie en fleurs",
+      "Parc du Thabor - Jardin à l'anglaise",
+      "Parc du Thabor - Serres tropicales",
+      "Parc du Thabor - Plan d'eau et canards",
+      "Parc du Thabor - Orangerie historique",
+      "Parc du Thabor - Arboretum centenaire",
+      "Parc du Thabor - Cages à oiseaux",
+      "Parc du Thabor - Allée du parc",
+      "Parc du Thabor - Fontaine",
+      "Parc du Thabor - Sculpture",
+      "Parc du Thabor - Parterres de fleurs",
+      "Parc du Thabor - Allée bordée d'arbres",
+      "Parc du Thabor - Aire de jeux pour enfants",
+      "Parc du Thabor - Fleurs de saison",
+      "Parc du Thabor - Vue panoramique"
+    ],
+    "credit": "Toutes les photographies présentées sur ce site appartiennent à leurs photographes respectifs ; l'ensemble des droits et droits d'auteur demeure la propriété de leurs auteurs.",
     "viewAll": "Voir sur Google Maps",
     "showAll": "Voir toutes les photos",
     "showLess": "Voir moins"
@@ -232,9 +256,10 @@
     ]
   },
   "mapSection": {
-    "title": "Comment s'y rendre",
+    "title": "Localisation et carte du Parc du Thabor à Rennes",
     "subtitle": "Pl. Saint-Mélaine, 35000 Rennes, France",
-    "openMaps": "Voir sur Google Maps"
+    "openMaps": "Voir sur Google Maps",
+    "officialNote": "Pour les informations officielles et touristiques de la région, consultez l'Office de Tourisme de Rennes."
   },
   "footer": {
     "rights": "© 2026 Parc du Thabor Association d'information touristique indépendante · Tous droits réservés.",
@@ -249,7 +274,8 @@
       "franceCulture": "Culture.gouv.fr",
       "rennesTourism": "Office de Tourisme de Rennes"
     },
-    "disclaimer": "Ce site est un projet d'information touristique tiers indépendant. Nous ne sommes affiliés à aucune administration locale ou institution officielle."
+    "disclaimer": "Ce site est un projet d'information touristique tiers indépendant. Nous ne sommes affiliés à aucune administration locale ou institution officielle.",
+    "imageCredit": "Toutes les photographies affichées sur ce site appartiennent à leurs photographes respectifs ; tous les droits et droits d'auteur demeurent la propriété de leurs auteurs."
   },
   "privacy": {
     "title": "Politique de confidentialité",
@@ -313,6 +339,364 @@
     },
     "save": "Enregistrer les préférences",
     "saved": "Préférences enregistrées !"
+  },
+  "breadcrumb": {
+    "ariaLabel": "Fil d'Ariane de localisation",
+    "items": ["Parc du Thabor", "Rennes", "Bretagne", "France"]
+  },
+  "seo": {
+    "jsonLdDescription": "Guide de visite complet du Parc du Thabor à Rennes, en Bretagne, France."
+  },
+  "landmarks": {
+    "title": "Monuments et lieux d'intérêt autour du Parc du Thabor",
+    "intro": "En visitant le **Parc du Thabor**, vous pourrez facilement explorer les monuments historiques et lieux d'intérêt des environs, notamment la **Cathédrale Saint-Pierre de Rennes** et le **Parlement de Bretagne**. Le parc constitue le point de départ idéal pour une journée de découverte du centre historique de Rennes.",
+    "mapNote": "Découvrez tous les lieux d'intérêt à proximité sur Google Maps.",
+    "getDirections": "Itinéraire",
+    "items": [
+      {
+        "name": "Cathédrale Saint-Pierre de Rennes",
+        "desc": "Cathédrale néo-classique au chœur gothique du XVIe siècle, située au sud-ouest du parc, dans le centre historique.",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&origin=Parc+du+Thabor+Rennes&destination=Cath%C3%A9drale+Saint-Pierre+de+Rennes&travelmode=walking"
+      },
+      {
+        "name": "Palais du Parlement de Bretagne",
+        "desc": "Chef-d'œuvre de l'architecture classique française du XVIIe siècle, ancien siège du Parlement de Bretagne.",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&origin=Parc+du+Thabor+Rennes&destination=Parlement+de+Bretagne+Rennes&travelmode=walking"
+      },
+      {
+        "name": "Basilique Saint-Sauveur",
+        "desc": "Église élégante mêlant styles classique et baroque sur la place Saint-Sauveur, au cœur du vieux Rennes.",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&origin=Parc+du+Thabor+Rennes&destination=Basilique+Saint-Sauveur+Rennes&travelmode=walking"
+      },
+      {
+        "name": "Musée des Beaux-Arts de Rennes",
+        "desc": "Grand musée d'art installé dans l'ancien palais universitaire, avec des collections de l'Antiquité au XXe siècle.",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&origin=Parc+du+Thabor+Rennes&destination=Mus%C3%A9e+des+Beaux-Arts+de+Rennes&travelmode=walking"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions fréquentes sur le Parc du Thabor",
+    "intro": "Réponses rapides aux questions les plus courantes sur la visite du Parc du Thabor à Rennes, en Bretagne.",
+    "items": [
+      {
+        "q": "Où se trouve le Parc du Thabor ?",
+        "a": "Le Parc du Thabor se trouve au cœur de Rennes, en Bretagne, France, au 35000 Rennes, Place Saint-Mélaine. L'entrée principale fait face à l'église Saint-Melaine, à quelques minutes à pied du centre historique."
+      },
+      {
+        "q": "L'entrée du Parc du Thabor est-elle gratuite ?",
+        "a": "Oui, le Parc du Thabor est un parc municipal public et son accès est entièrement gratuit toute l'année. Les serres tropicales et la volière sont également gratuites pendant les heures d'ouverture."
+      },
+      {
+        "q": "Quels sont les horaires d'ouverture du Parc du Thabor ?",
+        "a": "Le parc est ouvert tous les jours de l'aube au crépuscule, avec des horaires qui varient selon la saison. Les serres tropicales ferment à 17h en hiver et à 19h en été."
+      },
+      {
+        "q": "Que voir au Parc du Thabor ?",
+        "a": "Les visiteurs peuvent découvrir un jardin à la française, un jardin à l'anglaise romantique avec plan d'eau, une roseraie de plus de 2 000 rosiers, des serres tropicales, une volière, un arboretum, un jardin botanique et des aires de jeux pour enfants."
+      },
+      {
+        "q": "Comment se rendre au Parc du Thabor depuis le centre de Rennes ou la gare ?",
+        "a": "Depuis la place de la Mairie, le parc se rejoint en environ 10 minutes à pied. Depuis la gare de Rennes, comptez environ 20 minutes à pied, ou prenez les bus STAR C1, C2 ou 56 jusqu'à l'arrêt Saint-Mélaine, près du parc."
+      },
+      {
+        "q": "Que peut-on visiter à proximité du Parc du Thabor ?",
+        "a": "Les sites à découvrir à proximité incluent la Cathédrale Saint-Pierre de Rennes, la Basilique Saint-Sauveur et le Parlement de Bretagne, tous accessibles à pied depuis le parc."
+      },
+      {
+        "q": "Quelle est la meilleure période pour voir la roseraie du Parc du Thabor ?",
+        "a": "La roseraie est la plus belle de mai à octobre, avec une floraison maximale en mai et juin. Le printemps et le début de l'été offrent également le temps le plus agréable pour se promener dans les jardins."
+      }
+    ]
+  },
+  "sources": {
+    "title": "Sources et informations touristiques officielles",
+    "intro": "Ce guide a été réalisé à partir d'informations publiques et des canaux touristiques officiels ci-dessous. Le **Parc du Thabor** est géré par la Ville de Rennes et fait partie du patrimoine des parcs et jardins de **Rennes**.",
+    "items": [
+      {
+        "name": "Office de Tourisme de Rennes (Destination Rennes)",
+        "desc": "Informations officielles aux visiteurs de Rennes et de ses environs, notamment sur le Parc du Thabor.",
+        "url": "https://www.tourisme-rennes.com/"
+      },
+      {
+        "name": "Ville de Rennes / Rennes Métropole",
+        "desc": "Le portail officiel de Rennes Métropole, qui gère et entretient les parcs et jardins de la ville.",
+        "url": "https://metropole.rennes.fr/"
+      },
+      {
+        "name": "Tourisme en Bretagne",
+        "desc": "Le site officiel du tourisme de la région Bretagne.",
+        "url": "https://www.bretagne.bzh/"
+      },
+      {
+        "name": "Ministère français de la Culture",
+        "desc": "Informations de référence sur le patrimoine, les jardins et les sites protégés en France.",
+        "url": "https://www.culture.gouv.fr/"
+      }
+    ]
+  },
+  "weather": {
+    "title": "Météo et prévisions au Parc du Thabor (Rennes)",
+    "subtitle": "Conditions en direct et tendance à 7 jours pour organiser votre visite des jardins.",
+    "today": "Aujourd'hui",
+    "tomorrow": "Demain",
+    "updatedAt": "Mis à jour",
+    "todayTip": "Conseil du jour : ",
+    "rainChance": "Risque de pluie aujourd'hui : {pop} %",
+    "rainChanceShort": "Pluie {pop} %",
+    "feelsLike": "Ressenti",
+    "humidity": "Humidité",
+    "wind": "Vent",
+    "windUnit": "km/h",
+    "precipitation": "Précipitations",
+    "precipNone": "Aucune",
+    "umbrella": {
+      "low": "Faible risque de pluie : le parapluie n'est généralement pas nécessaire aujourd'hui.",
+      "mid": "Une averse est possible : un petit parapluie est conseillé aujourd'hui.",
+      "high": "Risque de pluie élevé : pensez à emporter un parapluie aujourd'hui."
+    },
+    "conditions": {
+      "clear": "Ciel dégagé",
+      "partly": "Partiellement nuageux",
+      "cloudy": "Nuageux",
+      "fog": "Brouillard",
+      "drizzle": "Bruine",
+      "rain": "Pluie",
+      "heavy": "Fortes pluies",
+      "snow": "Neige",
+      "storm": "Orages"
+    },
+    "popLabel": "Probabilité de pluie",
+    "uvLabel": "Indice UV",
+    "windLv": {
+      "calm": "Brise légère",
+      "moderate": "Brise",
+      "fresh": "Vent soutenu",
+      "strong": "Vent fort",
+      "gale": "Coup de vent"
+    },
+    "uvLv": {
+      "low": "Faible",
+      "moderate": "Modéré",
+      "high": "Élevé"
+    },
+    "advice": {
+      "panelTitle": "Conseils du jour",
+      "riskTitle": "Alerte météo",
+      "noRisk": "Aucune alerte météo",
+      "dress": "Tenue & confort",
+      "plan": "Programme de visite",
+      "items": "À emporter",
+      "clearPlan": "Ciel dégagé : parfait pour une balade et une pause sur les pelouses.",
+      "partlyPlan": "Nuages discrets, lumière douce : idéal pour une longue visite en plein air.",
+      "cloudyPlan": "Lumière douce, parfaite pour la photo : flânez dans tout le parc.",
+      "diffDress": "Fort écart de température jour/nuit : habillez-vous en plusieurs couches et prévoyez une veste facile à retirer.",
+      "heatDress": "Temps chaud : privilégiez des vêtements légers, respirants et de couleur claire.",
+      "heatPlan": "Il fera chaud en milieu de journée : évitez de visiter aux heures les plus chaudes.",
+      "heatItems": "Eau en quantité, chapeau de soleil.",
+      "coldDress": "Il fait froid aujourd'hui : couvrez-vous bien.",
+      "coldItems": "Manteau chaud, écharpe.",
+      "uvDress": "Indice UV élevé : protégez-vous si vous restez longtemps dehors.",
+      "uvItems": "Crème solaire, lunettes de soleil.",
+      "wind56Plan": "Vent soutenu : le ressenti sera vif dans les pelouses et près des bassins.",
+      "wind56Items": "Les chapeaux peuvent s'envoler : tenez bien vos affaires.",
+      "wind7Risk": "Vent très fort : tenez-vous éloigné des grands arbres et des tonnelles (risque de chutes de branches).",
+      "wind7Plan": "Par rafales, privilégiez les allées arborées et les zones abritées.",
+      "popHighPlan": "Risque de pluie important : alternez avec les serres et l'orangerie et gardez un parapluie sur vous.",
+      "drizzlePlan": "Bruine : sentiers glissants, prudence sur les escaliers et les pentes.",
+      "drizzleItems": "Un parapluie pliant.",
+      "rainPlan": "Pluie : la visite en plein air perd de son charme, misez sur les serres et les lieux couverts.",
+      "rainItems": "Un parapluie pliant.",
+      "heavyRisk": "Fortes pluies : des flaques possibles dans les allées basses ; évitez de vous abriter sous les arbres.",
+      "heavyPlan": "Par forte pluie, attendez à l'abri (serres, orangerie).",
+      "heavyItems": "Un imperméable (plus pratique qu'un grand parapluie sous la pluie).",
+      "stormRisk": "Orages : ne vous abritez jamais sous un arbre et éloignez-vous des espaces ouverts près des bassins.",
+      "stormPlan": "Restez à l'abri pendant l'orage, puis reprenez tranquillement votre visite.",
+      "fogRisk": "Brouillard : visibilité réduite, ralentissez sur les pentes et près des bassins.",
+      "fogPlan": "Le brouillard gêne les points de vue : profitez des serres en attendant qu'il se dissipe.",
+      "snowPlan": "Neige : prudence, surfaces glissantes ; privilégiez un circuit passant par les serres.",
+      "defaultDress": "Habillez-vous simplement selon la saison.",
+      "defaultPlan": "Le parc se parcourt facilement à pied, sans se presser."
+    }
+  },
+  "seasonGuide": {
+    "title": "Quand venir : stratégie de visite saisonnière du Parc du Thabor",
+    "subtitle": "Une vue d'ensemble fondée sur les sciences, établie d'après les moyennes climatiques sur 30 ans (1991-2020) à Rennes et les grands rendez-vous saisonniers connus du jardin.",
+    "note": "Les moyennes sur 30 ans décrivent des conditions typiques, pas un jour précis. Vérifiez toujours la météo en direct ci-dessus et les horaires officiels du parc avant de partir.",
+    "colSeason": "Saison et mois",
+    "colClimate": "Climat (moyenne sur 30 ans)",
+    "colGarden": "Jardins, roses et plans d'eau",
+    "colWildlife": "Oiseaux et faune",
+    "colCrowd": "Fréquentation et conseils",
+    "spring": {
+      "season": "Printemps · mars-mai",
+      "climate": "Environ 6-17 °C ; averses fréquentes mais ensoleillement croissant - avril est souvent le mois de printemps le plus ensoleillé.",
+      "garden": "Narcisses, tulipes et magnolias fleurissent ; les pelouses reverdissent et les parterres sont replantés.",
+      "wildlife": "Les oiseaux chantent et nichent ; les canards reviennent sur le plan d'eau et peuvent élever des canetons.",
+      "crowd": "Fréquentation modérée et agréable ; les ponts de mai sont plus chargés. Prévoyez une petite laine pour les matinées fraîches."
+    },
+    "summer": {
+      "season": "Été · juin-août",
+      "climate": "Environ 13-25 °C, avec quelques canicules au-delà de 30 °C ; périodes plus sèches entrecoupées d'orages.",
+      "garden": "La roseraie atteint son apogée dès début juin ; serres tropicales, plan d'eau et massifs sont au plus vert.",
+      "wildlife": "Oiseaux d'eau et canetons sur le plan d'eau ; papillons et libellules autour des massifs.",
+      "crowd": "Les mois les plus fréquentés, surtout les week-ends et les vacances scolaires. Venez tôt le matin ou en fin d'après-midi, avec de l'eau et une protection solaire."
+    },
+    "autumn": {
+      "season": "Automne · sept-nov",
+      "climate": "Environ 7-19 °C ; plus frais et plus humide à partir de la mi-octobre, avec un vent atlantique qui se renforce.",
+      "garden": "Feuillages dorés dans l'arboretum ; roses tardives et feuilles qui tombent font de belles promenades photographiques.",
+      "wildlife": "Oiseaux migrateurs et hivernants ; les oiseaux d'eau se rassemblent sur le plan d'eau.",
+      "crowd": "Dès fin octobre, le parc redevient calme - l'une des saisons les plus paisibles. Prenez un imperméable."
+    },
+    "winter": {
+      "season": "Hiver · déc-fév",
+      "climate": "Environ 3-9 °C ; pluies fréquentes, gelées occasionnelles et neige rare.",
+      "garden": "La structure du jardin à la française et des grands arbres se lit parfaitement ; les serres sont particulièrement accueillantes.",
+      "wildlife": "Les oiseaux hivernants fréquentent les arbres et le plan d'eau ; la volière est une belle étape au chaud.",
+      "crowd": "Les mois les plus calmes avec des journées courtes : prévoyez une visite en milieu de journée, en la combinant avec les serres."
+    }
+  },
+  "visitPlans": {
+    "title": "Idées de parcours au Parc du Thabor",
+    "subtitle": "Programmes souples pour une demi-journée ou une journée complète, ainsi que des parcours adaptés à chaque type de visite - dans le parc et autour.",
+    "generalTitle": "Parcours généraux conseillés (demi-journée / journée)",
+    "routeNote": "Les durées sont des estimations à un rythme détendu. Raccourcissez, prolongez ou inversez l'itinéraire selon votre journée - le parc se prête aux adaptations.",
+    "general": [
+      {
+        "name": "Les incontournables en demi-journée",
+        "duration": "Environ 2-3 heures",
+        "steps": [
+          "Commencez à l'entrée principale face à l'église Saint-Melaine et traversez le jardin à la française.",
+          "Poursuivez vers la roseraie (à son meilleur de mai à octobre).",
+          "Descendez vers le jardin à l'anglaise et le plan d'eau aux canards pour une pause.",
+          "Découvrez les serres tropicales, puis la volière.",
+          "Revenez tranquillement par l'arboretum et sortez vers le centre-ville."
+        ]
+      },
+      {
+        "name": "Découverte sur une journée",
+        "duration": "Environ 5-7 heures",
+        "steps": [
+          "Réalisez les incontournables de la demi-journée à un rythme détendu.",
+          "Ajoutez l'orangerie, les collections botaniques et chaque recoin de l'arboretum.",
+          "Déjeunez au centre-ville - le vieux Rennes offre cafés, bistrots et brasseries par type.",
+          "Prolongez l'après-midi : cathédrale Saint-Pierre, Parlement de Bretagne et maisons à pans de bois.",
+          "Revenez au parc en fin d'après-midi pour une lumière plus douce et des photos.",
+          "Terminez par une lente promenade le long de l'avenue d'entrée principale."
+        ]
+      }
+    ],
+    "groupsTitle": "Parcours selon votre groupe",
+    "groupNote": "Choisissez le programme qui correspond à votre groupe ; tous les parcours peuvent se combiner librement.",
+    "groups": [
+      {
+        "title": "Familles et jeunes enfants",
+        "desc": "Des boucles courtes et variées, ponctuées de pauses. Les allées principales sont adaptées aux poussettes.",
+        "steps": [
+          "Commencez sur les pelouses du jardin à la française, où les enfants peuvent courir en sécurité.",
+          "Faites une halte au plan d'eau aux canards - un rendez-vous apprécié des petits (surveillez-les au bord).",
+          "Profitez des aires de jeux pour enfants pour une pause plus longue.",
+          "Par temps frais, les serres tropicales offrent une étape intérieure intéressante.",
+          "Prévoyez un pique-nique simple pour les bancs et les pelouses."
+        ],
+        "tips": "Prévoyez une marge de temps généreuse et repérez sur le plan les toilettes et les commodités à proximité."
+      },
+      {
+        "title": "Photographie et observation de la nature",
+        "desc": "Idéal tôt le matin ou en fin de journée, quand la lumière est douce et le parc plus calme.",
+        "steps": [
+          "Photographiez la roseraie à l'ouverture pour des compositions épurées.",
+          "Capturez les reflets du plan d'eau et les oiseaux d'eau dans le jardin à l'anglaise.",
+          "Travaillez les gros plans et les détails à l'intérieur des serres.",
+          "Continuez vers la volière et l'arboretum pour les oiseaux et les textures d'arbres.",
+          "Restez sur les allées et respectez les massifs pendant vos prises de vue."
+        ],
+        "tips": "La lumière la plus douce arrive au lever et au coucher du soleil ; évitez le soleil de midi en été."
+      },
+      {
+        "title": "Accès facile et mobilité réduite",
+        "desc": "Un parcours plus court et détendu autour de l'entrée ouest et de la partie centrale du parc.",
+        "steps": [
+          "Entrez par la place Saint-Mélaine et suivez l'allée principale large.",
+          "Découvrez le jardin à la française et les parterres centraux à un rythme tranquille.",
+          "Reposez-vous sur les bancs de la zone centrale, avec de courts détours possibles.",
+          "Revenez par le même chemin pour garder un itinéraire simple et plat."
+        ],
+        "tips": "Certaines allées historiques sont plus pentues ou plus irrégulières. Consultez le plan sur place ou demandez au personnel la boucle la plus accessible, et confirmez l'accès en fauteuil avant votre visite."
+      }
+    ]
+  },
+  "facilities": {
+    "title": "Services aux visiteurs et commodités à proximité",
+    "subtitle": "Une présentation neutre, par type de service - nous ne recommandons aucune enseigne particulière.",
+    "intro": "Les services sont présentés par type pour vous aider à préparer une visite confortable. Confirmez les emplacements, horaires et tarifs exacts via les canaux officiels ou votre application de cartographie à votre arrivée.",
+    "insideTitle": "Dans le parc (par type)",
+    "inside": [
+      "Toilettes publiques (WC)",
+      "Bancs et aires de repos",
+      "Aires de jeux pour enfants",
+      "Allées larges et accessibles",
+      "Plans du parc et panneaux de règles",
+      "Corbeilles - emportez ce que vous apportez"
+    ],
+    "parkingTitle": "Stationnement et accès",
+    "parking": [
+      "Parkings publics et stationnement en voirie à proximité",
+      "Arrêts de bus et de métro",
+      "Stationnements vélos et vélos en libre-service",
+      "Places de stationnement accessibles là où elles sont signalées"
+    ],
+    "foodTitle": "Se restaurer à proximité (types, pas d'enseignes)",
+    "food": [
+      "Cafés",
+      "Boulangeries et pâtisseries",
+      "Crêperies",
+      "Restaurants familiaux",
+      "Bistrots du centre historique"
+    ],
+    "stayTitle": "Où dormir (types)",
+    "stay": [
+      "Hôtels",
+      "Chambres d'hôtes",
+      "Appartements de courte durée",
+      "Auberges de jeunesse"
+    ],
+    "shopTitle": "Commerces et besoins courants",
+    "shop": [
+      "Supermarchés",
+      "Supérettes",
+      "Marchés de quartier",
+      "Pharmacies"
+    ],
+    "driveTitle": "En voiture : carburant et recharge électrique",
+    "drive": [
+      "Stations-service",
+      "Bornes de recharge pour véhicules électriques"
+    ],
+    "driveNote": "En centre-ville, la marche, le vélo et les transports en commun restent les options les plus pratiques. Les automobilistes peuvent localiser la station-service ou la borne la plus proche par type via une application de cartographie.",
+    "note": "Ces listes décrivent les types de services habituellement disponibles dans le secteur, sans promouvoir aucun commerce. La disponibilité évolue - vérifiez toujours l'information au moment de votre visite."
+  },
+  "responsibility": {
+    "title": "Vulgarisation scientifique et responsabilité du visiteur",
+    "subtitle": "À propos de ce site éducatif indépendant à but non lucratif - et comment les visiteurs peuvent aider à protéger le parc.",
+    "intro": "Ce site est un projet éducatif indépendant et à but non lucratif consacré au Parc du Thabor. Nous présentons le parc et ses environs par type de service et sur la base d'informations publiques documentées, sans jamais faire de publicité ni de classement d'établissements.",
+    "principlesTitle": "Nos principes éditoriaux",
+    "principles": [
+      "Neutre et non commercial : les services sont décrits par type (cafés, hôtels, supermarchés...), jamais comme des recommandations de marques.",
+      "Information traçable : les détails pratiques renvoient aux canaux officiels (office de tourisme, Ville de Rennes, service météo) autant que possible.",
+      "La pédagogie d'abord : nous privilégions un savoir vérifiable sur les jardins, les oiseaux, l'histoire et le paysage.",
+      "Restez à jour : horaires, tarifs et événements évoluent - confirmez toujours auprès des sources officielles avant votre voyage."
+    ],
+    "rulesTitle": "Votre rôle de visiteur",
+    "rules": [
+      "Restez sur les allées et évitez de piétiner pelouses et massifs ; photographiez sans cueillir les plantes.",
+      "Ne nourrissez pas et ne poursuivez pas les oiseaux et les autres animaux - la nourriture humaine leur est nocive.",
+      "Restez discret pour que chacun puisse profiter des jardins.",
+      "Repartez avec vos déchets et triez-les là où des corbeilles sont prévues.",
+      "Surveillez les enfants et les animaux, et suivez les panneaux et les consignes du personnel sur place.",
+      "Sur les allées étroites, laissez passer fauteuils roulants et poussettes ; par temps humide, certains revêtements peuvent être glissants."
+    ]
   },
   "officialManagement": {
     "title": "À propos du Parc du Thabor",

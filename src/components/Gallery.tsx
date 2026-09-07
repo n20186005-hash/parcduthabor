@@ -3,31 +3,21 @@
 import { useTranslations, useMessages } from 'next-intl';
 import { useState, useCallback } from 'react';
 
-const photos = [
-  { src: '/gallery/parcduthabor (1).jpg', alt: 'Parc du Thabor 公园入口' },
-  { src: '/gallery/parcduthabor (2).jpg', alt: '法式花园' },
-  { src: '/gallery/parcduthabor (3).jpg', alt: '玫瑰园' },
-  { src: '/gallery/parcduthabor (4).jpg', alt: '英式花园' },
-  { src: '/gallery/parcduthabor (5).jpg', alt: '热带温室' },
-  { src: '/gallery/parcduthabor (6).jpg', alt: '池塘与鸭子' },
-  { src: '/gallery/parcduthabor (7).jpg', alt: '橘园' },
-  { src: '/gallery/parcduthabor (8).jpg', alt: '树木园' },
-  { src: '/gallery/parcduthabor (9).jpg', alt: '鸟舍' },
-  { src: '/gallery/parcduthabor (10).jpg', alt: '花园小径' },
-  { src: '/gallery/parcduthabor (11).jpg', alt: '喷泉' },
-  { src: '/gallery/parcduthabor (12).jpg', alt: '雕塑' },
-  { src: '/gallery/parcduthabor (13).jpg', alt: '花坛' },
-  { src: '/gallery/parcduthabor (14).jpg', alt: '林荫道' },
-  { src: '/gallery/parcduthabor (15).jpg', alt: '儿童游乐区' },
-  { src: '/gallery/parcduthabor (16).jpg', alt: '季节花卉' },
-  { src: '/gallery/parcduthabor (17).jpg', alt: '公园全景' },
-];
+const photoCount = 17;
+const photos = Array.from(
+  { length: photoCount },
+  (_, i) => `/gallery/parcduthabor (${i + 1}).jpg`
+);
 
 export default function Gallery() {
   const t = useTranslations('gallery');
+  const messages = useMessages() as any;
+  const alts: string[] = messages?.gallery?.altTexts || [];
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const [showAll, setShowAll] = useState(false);
+
+  const getAlt = (i: number) => alts[i] || 'Parc du Thabor, Rennes';
 
   const goToPrevious = useCallback(() => {
     setCurrentIndex((prev) => (prev === 0 ? photos.length - 1 : prev - 1));
@@ -55,7 +45,7 @@ export default function Gallery() {
 
           <div className="relative">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
-              {(showAll ? photos : photos.slice(0, 8)).map((photo, i) => (
+              {(showAll ? photos : photos.slice(0, 8)).map((src, i) => (
                 <div
                   key={i}
                   className={`gallery-item relative group cursor-pointer ${i === 0 && !showAll ? 'col-span-2 row-span-2' : ''}`}
@@ -65,15 +55,15 @@ export default function Gallery() {
                   }}
                 >
                   <img
-                    src={photo.src}
-                    alt={photo.alt}
+                    src={src}
+                    alt={getAlt(i)}
                     className="w-full h-full object-cover rounded-lg"
                     style={{ minHeight: i === 0 ? '400px' : '180px' }}
                     loading="lazy"
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors rounded-lg flex items-end">
                     <p className="text-white text-sm p-3 opacity-0 group-hover:opacity-100 transition-opacity">
-                      {photo.alt}
+                      {getAlt(i)}
                     </p>
                   </div>
                 </div>
@@ -128,6 +118,14 @@ export default function Gallery() {
                 {t('viewAll')}
               </a>
             </div>
+
+            {/* Image rights / credit note */}
+            <p
+              className="mt-6 text-center text-xs leading-relaxed"
+              style={{ color: 'var(--text-muted)' }}
+            >
+              {t('credit')}
+            </p>
           </div>
         </div>
       </section>
@@ -159,8 +157,8 @@ export default function Gallery() {
           </button>
 
           <img
-            src={photos[currentIndex].src}
-            alt={photos[currentIndex].alt}
+            src={photos[currentIndex]}
+            alt={getAlt(currentIndex)}
             className="max-w-[90vw] max-h-[85vh] object-contain rounded-lg"
             onClick={(e) => e.stopPropagation()}
           />

@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import { SITE } from '@/lib/site';
 
 export default function MapEmbed() {
   const t = useTranslations('mapSection');
@@ -25,13 +26,13 @@ export default function MapEmbed() {
             This is for visual cleanliness only. Google's Terms of Service apply.
           */}
           <iframe
-            src="https://maps.google.com/maps?q=Parc+du+Thabor+Rennes&output=embed"
+            src={SITE.mapsEmbedSrc}
             width="100%"
             height="450"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
+            referrerPolicy="strict-origin-when-cross-origin"
             title="Google Maps - Parc du Thabor"
           />
         </div>
@@ -57,6 +58,19 @@ export default function MapEmbed() {
             </svg>
           </a>
         </div>
+
+        {/* Authoritative tourism link (SEO authority outbound) */}
+        <p className="mt-6 text-center text-sm leading-relaxed" style={{ color: 'var(--text-muted)' }}>
+          <a
+            href={SITE.tourismUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+            style={{ color: 'var(--accent)' }}
+          >
+            {t('officialNote')}
+          </a>
+        </p>
       </div>
     </section>
   );

@@ -41,6 +41,9 @@
   --tag-bg: var(--color-sand-200);
   --tag-text: var(--color-nature-700);
   --map-border: var(--color-sand-300);
+  --risk-bg: #fef2f2;
+  --risk-border: #fecaca;
+  --risk-text: #b91c1c;
 }
 
 [data-theme="dark"] {
@@ -59,6 +62,9 @@
   --tag-bg: #1e3a28;
   --tag-text: #a0c4a8;
   --map-border: #1e3a28;
+  --risk-bg: rgba(248, 113, 113, 0.12);
+  --risk-border: rgba(248, 113, 113, 0.3);
+  --risk-text: #fca5a5;
 }
 
 * {

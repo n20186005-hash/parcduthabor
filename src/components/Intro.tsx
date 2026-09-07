@@ -1,15 +1,44 @@
 import { useTranslations, useMessages } from 'next-intl';
+import RichText from './RichText';
 
 export default function Intro() {
   const t = useTranslations('intro');
   const tOff = useTranslations('officialManagement');
+  const tBc = useTranslations('breadcrumb');
   const messages = useMessages() as any;
   const items: string[] = messages?.intro?.visitGuide?.items || [];
   const alsoKnownAsItems: string[] = messages?.intro?.alsoKnownAs?.items || [];
+  const crumbs: string[] = messages?.breadcrumb?.items || [];
+  const lead: string = messages?.intro?.lead || '';
 
   return (
     <section className="section-padding">
       <div className="max-w-4xl mx-auto">
+        {/* Geographic hierarchy / breadcrumb (SEO entity binding) */}
+        {crumbs.length > 0 && (
+          <nav aria-label={tBc('ariaLabel')} className="mb-6">
+            <ol className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm">
+              {crumbs.map((crumb, i) => (
+                <li key={i} className="flex items-center gap-x-2">
+                  {i > 0 && (
+                    <span aria-hidden="true" style={{ color: 'var(--text-muted)' }}>
+                      →
+                    </span>
+                  )}
+                  <span
+                    className={i < crumbs.length - 1 ? 'font-medium' : ''}
+                    style={{
+                      color: i < crumbs.length - 1 ? 'var(--accent)' : 'var(--text-muted)',
+                    }}
+                  >
+                    {crumb}
+                  </span>
+                </li>
+              ))}
+            </ol>
+          </nav>
+        )}
+
         <h2
           className="font-display text-3xl sm:text-4xl font-semibold mb-6"
           style={{ color: 'var(--text-primary)' }}
@@ -17,6 +46,15 @@ export default function Intro() {
           {t('title')}
         </h2>
         <div className="w-12 h-0.5 mb-8" style={{ background: 'var(--accent)' }} />
+
+        {lead && (
+          <p
+            className="text-xl leading-relaxed mb-5"
+            style={{ color: 'var(--text-primary)' }}
+          >
+            <RichText text={lead} />
+          </p>
+        )}
 
         <p
           className="text-lg leading-relaxed mb-12"

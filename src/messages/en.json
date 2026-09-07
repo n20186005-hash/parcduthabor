@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Parc du Thabor | Rennes' Green Gem - Official Tourist Guide",
-    "description": "Discover Parc du Thabor in Rennes: 10 hectares of beautiful gardens, rose garden, tropical greenhouses, bird cages and play areas. A must-see attraction in Brittany."
+    "title": "Parc du Thabor Rennes | Free Things to Do & Visitor Guide",
+    "description": "Explore Parc du Thabor in Rennes, France: 10 hectares of gardens, the famous rose garden, an aviary and free entry. Complete visitor guide with map and opening times."
   },
   "header": {
     "home": "Home",
@@ -11,7 +11,7 @@
     "backToHome": "Back to Home"
   },
   "hero": {
-    "title": "Parc du Thabor",
+    "title": "Parc du Thabor (Rennes)",
     "subtitle": "Rennes' Green Gem, Combining French and English Gardens",
     "rating": "4.7(13,604)",
     "reviewCount": "13,604 reviews",
@@ -19,7 +19,8 @@
     "openMaps": "View on Map"
   },
   "intro": {
-    "title": "Discover Parc du Thabor",
+    "title": "About Parc du Thabor (Rennes)",
+    "lead": "Welcome to **Parc du Thabor**, widely recognized as the **green heart of Rennes**. Located in the heart of **Rennes**, **Brittany**, **France**, this 18th-century park and botanical garden is one of the most beautiful public gardens in the country and serves as a primary landmark for travelers visiting the region.",
     "description": "Located in the heart of Rennes, Parc du Thabor is a 10-hectare tranquil oasis, considered one of the most beautiful gardens in France. Formerly the garden of the Saint-Melaine Abbey, it was redesigned in the 19th century by renowned landscape architect Denis Bühler.\n\nThe park is divided into several distinct areas: a geometric French garden, a more natural English garden, a magnificent rose garden with over 2,000 roses, tropical greenhouses housing exotic plants, and a bird cage housing various bird species.\n\nThe main entrance is at Place Saint-Mélaine. The park's architecture reflects French landscape artistry while incorporating diverse botanical elements. It is a popular spot for Rennais and tourists alike for strolling, resting, and exploring flora.\n\nThe park also features a café-restaurant (open during warm seasons) and children's play areas. Various cultural events are organized throughout the year.",
     "visitGuide": {
       "title": "Visit Tips",
@@ -79,6 +80,9 @@
     "cityValue": "Rennes",
     "googleRating": "Google Rating",
     "phone": "Phone",
+    "phoneValue": "+33 2 23 62 19 40",
+    "plusCode": "Plus Code",
+    "plusCodeValue": "487J+Q6 Rennes, France",
     "address": "Address",
     "addressValue": "Pl. Saint-Mélaine, 35000 Rennes, France"
   },
@@ -196,6 +200,26 @@
       "Bird cage",
       "Botanical garden"
     ],
+    "altTexts": [
+      "Parc du Thabor - main entrance gate",
+      "Parc du Thabor - French garden",
+      "Parc du Thabor - rose garden in bloom",
+      "Parc du Thabor - English garden",
+      "Parc du Thabor - tropical greenhouses",
+      "Parc du Thabor - pond and ducks",
+      "Parc du Thabor - historic orangery",
+      "Parc du Thabor - centennial arboretum",
+      "Parc du Thabor - bird cage",
+      "Parc du Thabor - garden path",
+      "Parc du Thabor - fountain",
+      "Parc du Thabor - sculpture",
+      "Parc du Thabor - flowerbeds",
+      "Parc du Thabor - tree-lined avenue",
+      "Parc du Thabor - children's play area",
+      "Parc du Thabor - seasonal flowers",
+      "Parc du Thabor - panoramic view"
+    ],
+    "credit": "All photographs shown on this website belong to their respective photographers; all image rights and copyrights remain with the original owners.",
     "viewAll": "View on Google Maps",
     "showAll": "View All Photos",
     "showLess": "Show Less"
@@ -232,9 +256,10 @@
     ]
   },
   "mapSection": {
-    "title": "How to Get Here",
+    "title": "Location & Map of Parc du Thabor in Rennes",
     "subtitle": "Pl. Saint-Mélaine, 35000 Rennes, France",
-    "openMaps": "View on Google Maps"
+    "openMaps": "View on Google Maps",
+    "officialNote": "For official updates and regional tourism information, visit the Rennes Tourism Office."
   },
   "footer": {
     "rights": "© 2026 Parc du Thabor Independent Tourism Research Association · All rights reserved.",
@@ -249,7 +274,8 @@
       "franceCulture": "French Culture",
       "rennesTourism": "Visit Rennes"
     },
-    "disclaimer": "This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions."
+    "disclaimer": "This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions.",
+    "imageCredit": "All photographs displayed on this website belong to their respective photographers; all rights and copyrights remain with the original owners."
   },
   "privacy": {
     "title": "Privacy Policy",
@@ -313,6 +339,364 @@
     },
     "save": "Save Preferences",
     "saved": "Preferences saved!"
+  },
+  "breadcrumb": {
+    "ariaLabel": "Location breadcrumb",
+    "items": ["Parc du Thabor", "Rennes", "Brittany", "France"]
+  },
+  "seo": {
+    "jsonLdDescription": "Comprehensive visitor guide to Parc du Thabor in Rennes, Brittany, France."
+  },
+  "landmarks": {
+    "title": "Landmarks & Attractions Around Parc du Thabor",
+    "intro": "When visiting **Parc du Thabor**, visitors can easily explore surrounding historical landmarks and points of interest, including **Rennes Cathedral (Cathédrale Saint-Pierre de Rennes)** and **the Parliament of Brittany (Palais du Parlement de Bretagne)**. The park is the perfect starting point for discovering Rennes' old town.",
+    "mapNote": "Explore all nearby attractions on Google Maps.",
+    "getDirections": "Get directions",
+    "items": [
+      {
+        "name": "Rennes Cathedral (Cathédrale Saint-Pierre de Rennes)",
+        "desc": "A neoclassical cathedral with a 16th-century Gothic choir, just south-west of the park inside the historic centre.",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&origin=Parc+du+Thabor+Rennes&destination=Cath%C3%A9drale+Saint-Pierre+de+Rennes&travelmode=walking"
+      },
+      {
+        "name": "Parliament of Brittany (Palais du Parlement de Bretagne)",
+        "desc": "A masterpiece of 17th-century French classical architecture and the former seat of the Parliament of Brittany.",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&origin=Parc+du+Thabor+Rennes&destination=Parlement+de+Bretagne+Rennes&travelmode=walking"
+      },
+      {
+        "name": "Basilica Saint-Sauveur (Basilique Saint-Sauveur)",
+        "desc": "An elegant church mixing classical and baroque styles on Place Saint-Sauveur, part of Rennes' old town circuit.",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&origin=Parc+du+Thabor+Rennes&destination=Basilique+Saint-Sauveur+Rennes&travelmode=walking"
+      },
+      {
+        "name": "Museum of Fine Arts of Rennes (Musée des Beaux-Arts)",
+        "desc": "A major art museum housed in the former university palace, with collections spanning antiquity to the 20th century.",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&origin=Parc+du+Thabor+Rennes&destination=Mus%C3%A9e+des+Beaux-Arts+de+Rennes&travelmode=walking"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions about Parc du Thabor",
+    "intro": "Quick answers to the most common questions about visiting Parc du Thabor in Rennes, Brittany.",
+    "items": [
+      {
+        "q": "Where is Parc du Thabor located?",
+        "a": "Parc du Thabor is located in the heart of Rennes, Brittany, France, at Place Saint-Mélaine, 35000 Rennes. The main entrance faces the Saint-Melaine church, a short walk from the historic centre."
+      },
+      {
+        "q": "Is Parc du Thabor free to visit?",
+        "a": "Yes, Parc du Thabor is a public municipal park and it is completely free to visit year-round. The tropical greenhouses and the bird cage are also free during opening hours."
+      },
+      {
+        "q": "What are the opening hours of Parc du Thabor?",
+        "a": "The park is open every day from dawn to dusk, with opening times varying by season. The tropical greenhouses close at 17:00 in winter and at 19:00 in summer."
+      },
+      {
+        "q": "What is there to see at Parc du Thabor?",
+        "a": "Visitors can discover a formal French garden, a romantic English garden with a pond, a rose garden of more than 2,000 roses, tropical greenhouses, a bird cage, an arboretum, a botanical garden and children's play areas."
+      },
+      {
+        "q": "How do I get from Rennes city centre or train station to Parc du Thabor?",
+        "a": "From the Place de la Mairie the park is about a 10-minute walk. From Rennes train station count about 20 minutes on foot, or take STAR buses C1, C2 or 56 to the Saint-Mélaine stop near the park."
+      },
+      {
+        "q": "What can I visit near Parc du Thabor?",
+        "a": "Nearby highlights include Rennes Cathedral (Cathédrale Saint-Pierre de Rennes), the Basilica Saint-Sauveur and the Parliament of Brittany, all within an easy walk of the park."
+      },
+      {
+        "q": "When is the best time to see the rose garden at Parc du Thabor?",
+        "a": "The rose garden is at its most beautiful from May to October, peaking in May and June. Spring and early summer also offer the most pleasant weather for strolling in the gardens."
+      }
+    ]
+  },
+  "sources": {
+    "title": "Sources & Official Tourism Information",
+    "intro": "This guide was compiled from public information and the official tourism channels below. **Parc du Thabor** is managed by the City of Rennes and is part of the heritage of parks and gardens of **Rennes**.",
+    "items": [
+      {
+        "name": "Rennes Tourism Office (Destination Rennes)",
+        "desc": "Official visitor information for Rennes and its surroundings, including the Parc du Thabor.",
+        "url": "https://www.tourisme-rennes.com/"
+      },
+      {
+        "name": "City of Rennes / Rennes Métropole",
+        "desc": "The official portal of Rennes Métropole, which manages and maintains the city's parks and gardens.",
+        "url": "https://metropole.rennes.fr/"
+      },
+      {
+        "name": "Brittany Regional Tourism",
+        "desc": "The official tourism website of the Brittany region.",
+        "url": "https://www.bretagne.bzh/"
+      },
+      {
+        "name": "French Ministry of Culture",
+        "desc": "Reference information on heritage, gardens and protected sites in France.",
+        "url": "https://www.culture.gouv.fr/"
+      }
+    ]
+  },
+  "weather": {
+    "title": "Weather & Forecast at Parc du Thabor (Rennes)",
+    "subtitle": "Current conditions and a 7-day outlook to help you plan your visit to the gardens.",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "updatedAt": "Updated",
+    "todayTip": "Today's tip: ",
+    "rainChance": "Today's rain probability: {pop}%",
+    "rainChanceShort": "Rain {pop}%",
+    "feelsLike": "Feels like",
+    "humidity": "Humidity",
+    "wind": "Wind",
+    "windUnit": "km/h",
+    "precipitation": "Precipitation",
+    "precipNone": "None",
+    "umbrella": {
+      "low": "Rain probability is low — you can generally leave the umbrella at home.",
+      "mid": "A shower is possible — a light umbrella is a good idea today.",
+      "high": "Rain probability is high — bring an umbrella today."
+    },
+    "conditions": {
+      "clear": "Clear sky",
+      "partly": "Partly cloudy",
+      "cloudy": "Cloudy",
+      "fog": "Fog",
+      "drizzle": "Drizzle",
+      "rain": "Rain",
+      "heavy": "Heavy rain",
+      "snow": "Snow",
+      "storm": "Thunderstorms"
+    },
+    "popLabel": "Rain probability",
+    "uvLabel": "UV index",
+    "windLv": {
+      "calm": "Light breeze",
+      "moderate": "Breeze",
+      "fresh": "Windy",
+      "strong": "Strong wind",
+      "gale": "Gale"
+    },
+    "uvLv": {
+      "low": "Low",
+      "moderate": "Moderate",
+      "high": "High"
+    },
+    "advice": {
+      "panelTitle": "Today's visit tips",
+      "riskTitle": "Weather warning",
+      "noRisk": "No weather warning",
+      "dress": "Dressing & comfort",
+      "plan": "What to do",
+      "items": "Things to bring",
+      "clearPlan": "Clear skies – great for a stroll and a rest on the lawns.",
+      "partlyPlan": "Mild and softly lit – comfortable for a long outdoor visit.",
+      "cloudyPlan": "Soft, even light is lovely for photos and a slow wander.",
+      "diffDress": "Big day/night swing – dress in layers and carry an easy jacket.",
+      "heatDress": "Hot out – choose light, breathable, light-coloured clothes.",
+      "heatPlan": "Hottest around midday – try to avoid the peak hours outdoors.",
+      "heatItems": "Plenty of water and a sun hat.",
+      "coldDress": "It's cold today – wrap up warm.",
+      "coldItems": "Warm coat and scarf.",
+      "uvDress": "UV is strong – use sun protection if you're out for a while.",
+      "uvItems": "Sunscreen and sunglasses.",
+      "wind56Plan": "Fairly windy – it will feel brisker on open lawns and by the ponds.",
+      "wind56Items": "Hats can blow away – keep a firm hold on loose items.",
+      "wind7Risk": "Strong winds – keep clear of big trees and pergolas (falling branches).",
+      "wind7Plan": "In gusts, stick to tree-lined paths and sheltered spots.",
+      "popHighPlan": "Rain is likely – mix in the greenhouses and orangery and keep an umbrella handy.",
+      "drizzlePlan": "Light drizzle – paths turn slippery; take care on steps and slopes.",
+      "drizzleItems": "A compact umbrella.",
+      "rainPlan": "Rain will dampen outdoor exploring – focus on the greenhouses and covered spots.",
+      "rainItems": "A compact umbrella.",
+      "heavyRisk": "Heavy rain today – puddles may form on lower paths; don't shelter under trees.",
+      "heavyPlan": "When the rain is heavy, wait it out under cover (greenhouses, orangery).",
+      "heavyItems": "A raincoat (easier than a big umbrella in wet weather).",
+      "stormRisk": "Thunderstorms – never shelter under a tree and keep away from open areas by the ponds.",
+      "stormPlan": "Stay under cover while the storm passes, then continue your visit.",
+      "fogRisk": "Fog is reducing visibility – slow down on slopes and pondside paths.",
+      "fogPlan": "Views will be limited – enjoy the greenhouses while the fog clears.",
+      "snowPlan": "Snow – watch your step, keep warm and favour a route through the greenhouses.",
+      "defaultDress": "Dress simply for the season.",
+      "defaultPlan": "The park is made for a gentle stroll."
+    }
+  },
+  "seasonGuide": {
+    "title": "When to Visit: Seasonal Strategy for Parc du Thabor",
+    "subtitle": "A science-based overview of the park through the year, prepared from long-term climate averages (1991-2020) for Rennes and the garden's known seasonal highlights.",
+    "note": "Long-term averages describe typical conditions, not any specific day. Always check the live forecast above and the park's official opening times before you go.",
+    "colSeason": "Season & months",
+    "colClimate": "Climate (long-term average)",
+    "colGarden": "Garden, roses & water features",
+    "colWildlife": "Birds & wildlife",
+    "colCrowd": "Crowds & our suggestions",
+    "spring": {
+      "season": "Spring · Mar-May",
+      "climate": "About 6-17 °C; showery spells with growing sunshine - April is often the sunniest spring month.",
+      "garden": "Daffodils, tulips and magnolias flower; lawns turn fresh green and the parterres are replanted.",
+      "wildlife": "Birds sing and nest; ducks return to the pond and may raise ducklings.",
+      "crowd": "Moderate and comfortable; May bank-holiday weekends get busier. Bring a light layer for cool mornings."
+    },
+    "summer": {
+      "season": "Summer · Jun-Aug",
+      "climate": "About 13-25 °C, with occasional heatwaves above 30 °C; drier spells mixed with thunderstorms.",
+      "garden": "The rose garden peaks from early June; tropical greenhouses, pond and flowerbeds are at their most lush.",
+      "wildlife": "Wildfowl and ducklings on the pond; butterflies and dragonflies around the flowerbeds.",
+      "crowd": "The busiest months, especially weekends and school holidays. Come early morning or late afternoon, and bring water and sun protection."
+    },
+    "autumn": {
+      "season": "Autumn · Sep-Nov",
+      "climate": "About 7-19 °C; cooler and wetter from mid-October, with increasing Atlantic wind.",
+      "garden": "Golden foliage in the arboretum; late roses and falling leaves make photogenic walks.",
+      "wildlife": "Migrating and wintering birds; waterfowl gather on the pond.",
+      "crowd": "From late October the park turns quiet again - one of the most peaceful seasons. Take a raincoat."
+    },
+    "winter": {
+      "season": "Winter · Dec-Feb",
+      "climate": "About 3-9 °C; frequent rain, occasional frost and rare snow.",
+      "garden": "The structure of the French garden and the old trees is clearly visible; the greenhouses feel especially welcoming.",
+      "wildlife": "Wintering birds use the trees and the pond; the aviary is a good warm stop.",
+      "crowd": "The quietest months with short daylight - plan a midday visit and combine it with the greenhouses."
+    }
+  },
+  "visitPlans": {
+    "title": "Suggested Itineraries at Parc du Thabor",
+    "subtitle": "Flexible plans for a half-day or a full day, plus routes tailored to different groups - all inside and around the park.",
+    "generalTitle": "Recommended general routes (half-day / full-day)",
+    "routeNote": "Times are estimates at a relaxed pace. Shorten, extend or reverse the route to suit your day - the park is easy to adapt.",
+    "general": [
+      {
+        "name": "Half-day highlights",
+        "duration": "About 2-3 hours",
+        "steps": [
+          "Start at the main entrance facing Saint-Melaine Church and cross the French garden.",
+          "Continue to the rose garden (at its best from May to October).",
+          "Walk down to the English garden and the duck pond for a rest stop.",
+          "Discover the tropical greenhouses, then the bird cage.",
+          "Stroll back through the arboretum and exit toward the city centre."
+        ]
+      },
+      {
+        "name": "Full-day discovery",
+        "duration": "About 5-7 hours",
+        "steps": [
+          "Complete the half-day highlights at a relaxed pace.",
+          "Add the orangery, the botanical collections and every corner of the arboretum.",
+          "Have lunch in the city centre - the old town offers cafés, bistros and brasseries by type.",
+          "Afternoon extension: walk to Rennes Cathedral, the Parliament of Brittany and the half-timbered old town.",
+          "Return to the park in the late afternoon for quieter light and photographs.",
+          "End the day with a slow walk back along the main entrance avenue."
+        ]
+      }
+    ],
+    "groupsTitle": "Routes by group & pace",
+    "groupNote": "Choose the plan that best matches your group; all routes can be mixed freely.",
+    "groups": [
+      {
+        "title": "Families & young children",
+        "desc": "Short, varied loops with frequent breaks. Main paths are practical for pushchairs.",
+        "steps": [
+          "Start on the lawns of the French garden where children can run safely.",
+          "Visit the duck pond - a favourite stop for young visitors (watch from the edge).",
+          "Use the children's play areas for a longer break.",
+          "On cooler days, the tropical greenhouses make a warm, interesting indoor stop.",
+          "Pack a simple picnic for the benches and lawns."
+        ],
+        "tips": "Allow generous extra time, and check the on-site map for toilets and nearby facilities."
+      },
+      {
+        "title": "Photography & nature watching",
+        "desc": "Best early morning or late afternoon, when the light is soft and the park is quieter.",
+        "steps": [
+          "Shoot the rose garden at opening time for clean compositions.",
+          "Capture the pond reflections and wildfowl in the English garden.",
+          "Work close-ups and detail shots inside the greenhouses.",
+          "Move on to the aviary and the arboretum for birds and tree textures.",
+          "Stay on the paths and respect the flowerbeds while shooting."
+        ],
+        "tips": "The softest light comes around sunrise and sunset; avoid harsh midday sun in summer."
+      },
+      {
+        "title": "Easy access & low-mobility route",
+        "desc": "A shorter, relaxed route around the western entrance and the central part of the park.",
+        "steps": [
+          "Enter at Place Saint-Mélaine and follow the main wide path.",
+          "Take in the French garden and the central parterres at a slow pace.",
+          "Rest on benches in the central area, with optional short detours.",
+          "Return the same way to keep the route simple and level."
+        ],
+        "tips": "Some historic paths are steeper or more uneven. Check the on-site map or ask staff for the most accessible loop, and confirm wheelchair access before your visit."
+      }
+    ]
+  },
+  "facilities": {
+    "title": "Visitor Services & Nearby Facilities",
+    "subtitle": "A neutral, type-based overview - we do not recommend any specific business.",
+    "intro": "Services are listed by type so you can plan a comfortable visit. Confirm exact locations, opening times and prices through official channels or your map application when you arrive.",
+    "insideTitle": "Inside the park (by type)",
+    "inside": [
+      "Public toilets (WC)",
+      "Benches and rest areas",
+      "Children's play areas",
+      "Wide accessible paths",
+      "Park maps and rule signs",
+      "Waste bins - please carry out what you bring"
+    ],
+    "parkingTitle": "Parking & getting there",
+    "parking": [
+      "Public parking lots and street parking nearby",
+      "Bus and metro stops",
+      "Bike parking and shared-bike points",
+      "Accessible parking spaces where signposted"
+    ],
+    "foodTitle": "Food & drink nearby (types, not brands)",
+    "food": [
+      "Cafés",
+      "Bakeries and patisseries",
+      "Crêperies",
+      "Family restaurants",
+      "Old-town bistros"
+    ],
+    "stayTitle": "Where to stay (types)",
+    "stay": [
+      "Hotels",
+      "Bed & breakfast guesthouses",
+      "Short-stay apartments",
+      "Hostels"
+    ],
+    "shopTitle": "Shopping & everyday needs",
+    "shop": [
+      "Supermarkets",
+      "Convenience stores",
+      "Weekly street markets",
+      "Pharmacies"
+    ],
+    "driveTitle": "For drivers: fuel & EV charging",
+    "drive": [
+      "Fuel stations",
+      "Electric-vehicle charging points"
+    ],
+    "driveNote": "In the city centre, walking, cycling and public transport are the most convenient options. Drivers can use a map application to locate the nearest station or charger by type.",
+    "note": "These lists describe the types of services commonly available in the area, without promoting any particular business. Availability changes - always check current information at the time of your visit."
+  },
+  "responsibility": {
+    "title": "Science Education & Visitor Responsibility",
+    "subtitle": "About this independent, non-profit educational website - and how visitors can help protect the park.",
+    "intro": "This site is an independent, non-profit educational project about Parc du Thabor. We describe the park and its surroundings by type of facility and by publicly documented information, and we never advertise or rank specific businesses.",
+    "principlesTitle": "Our editorial principles",
+    "principles": [
+      "Neutral and non-commercial: services are described by type (cafés, hotels, supermarkets...), never as brand recommendations.",
+      "Traceable information: practical details cite official channels (tourism office, city of Rennes, meteorological service) wherever possible.",
+      "Education first: we focus on verifiable knowledge about the gardens, the birds, the history and the landscape.",
+      "Keep current: opening hours, prices and events change - always confirm with official sources before you travel."
+    ],
+    "rulesTitle": "Your role as a visitor",
+    "rules": [
+      "Walk on the paths and avoid trampling lawns or flowerbeds; photograph without picking plants.",
+      "Do not feed or chase the birds and other animals - human food is unhealthy for them.",
+      "Keep noise low so that everyone can enjoy the gardens.",
+      "Take your waste with you and sort it where bins are provided.",
+      "Watch children and pets closely, and follow the signs and staff instructions on site.",
+      "On narrow paths, give way to wheelchairs and pushchairs; in wet weather some paving can be slippery."
+    ]
   },
   "officialManagement": {
     "title": "About Parc du Thabor",
