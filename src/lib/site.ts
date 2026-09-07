@@ -38,7 +38,7 @@ export const SITE = {
   /** {{GOVT_TOURISM_URL}} */
   tourismUrl: 'https://www.tourisme-rennes.com/',
   /** Canonical hero image (also used as og:image / schema image) */
-  heroImagePath: '/gallery/parcduthabor%20(6).jpg',
+  heroImagePath: '/gallery/parc-du-thabor-6.jpg',
   phone: '+33 2 23 62 19 40',
   plusCode: '487J+Q6 Rennes, France',
   phoneRaw: '+33223621940',

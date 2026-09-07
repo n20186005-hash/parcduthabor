@@ -8,7 +8,7 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src="/gallery/parcduthabor (6).jpg"
+          src="/gallery/parc-du-thabor-6.jpg"
           alt="Parc du Thabor - Main view in Rennes, France"
           loading="eager"
           className="w-full h-full object-cover"

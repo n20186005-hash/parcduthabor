@@ -6,7 +6,7 @@ import { useState, useCallback } from 'react';
 const photoCount = 17;
 const photos = Array.from(
   { length: photoCount },
-  (_, i) => `/gallery/parcduthabor (${i + 1}).jpg`
+  (_, i) => `/gallery/parc-du-thabor-${i + 1}.jpg`
 );
 
 export default function Gallery() {
