@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: deContent.title,
   description: deContent.description,
   alternates: {
-    canonical: '/de',
+    canonical: 'https://parcduthabor.com/de',
     languages: {
       fr: '/fr',
       en: '/en',

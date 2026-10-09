@@ -13,8 +13,8 @@
   "hero": {
     "title": "Parc du Thabor (Rennes)",
     "subtitle": "Rennes' Green Gem, Combining French and English Gardens",
-    "rating": "4.7(13,604)",
-    "reviewCount": "13,604 reviews",
+    "rating": "4.7(13,848)",
+    "reviewCount": "13,848 reviews",
     "type": "Municipal Park · Botanical Garden",
     "openMaps": "View on Map"
   },
@@ -87,15 +87,20 @@
     "addressValue": "Pl. Saint-Mélaine, 35000 Rennes, France"
   },
   "hours": {
-    "title": "Visiting Information",
-    "park": "Park Access",
-    "parkTime": "Open daily from dawn to dusk (hours vary by season)",
-    "bestTime": "Best Time to Visit",
-    "bestTimeSpring": "Spring (April-June): Rose garden in bloom, mild and pleasant weather",
-    "bestTimeSummer": "Summer (July-August): Shade and coolness, picnics recommended",
-    "bestTimeAutumn": "Autumn (September-November): Magnificent colors, fewer visitors",
-    "bestTimeWinter": "Winter (December-March): Peaceful ambiance, tree structures clearly visible",
-    "tip": "Greenhouses close at 17:00 in winter and 19:00 in summer"
+    "title": "Parc du Thabor Opening Hours",
+    "intro": "The park is open year-round, from sunrise to sunset on a seasonal schedule. Free admission.",
+    "tableTitle": "Opening hours by period",
+    "periodLabel": "Period",
+    "hoursLabel": "Park hours",
+    "seasonal": [
+      { "period": "October 1 – February 28", "time": "07:30 – 18:30" },
+      { "period": "March 1 – April 30", "time": "07:30 – 20:00" },
+      { "period": "May 1 – August 31", "time": "07:30 – 20:30" },
+      { "period": "September 1 – 30", "time": "07:30 – 20:00" }
+    ],
+    "greenhouseTitle": "Tropical greenhouses",
+    "greenhouseTime": "Open during park hours; greenhouses close at 17:00 in winter and 19:00 in summer.",
+    "tip": "Hours may change in bad weather. Source: Rennes Tourism Office (tourisme-rennes.com)."
   },
   "tickets": {
     "title": "Ticket Prices",
@@ -389,7 +394,7 @@
       },
       {
         "q": "What are the opening hours of Parc du Thabor?",
-        "a": "The park is open every day from dawn to dusk, with opening times varying by season. The tropical greenhouses close at 17:00 in winter and at 19:00 in summer."
+        "a": "The park is open year-round on a seasonal schedule: 07:30–18:30 from October 1 to February 28, 07:30–20:00 in March–April, 07:30–20:30 in May–August, and 07:30–20:00 in September. The tropical greenhouses close at 17:00 in winter and 19:00 in summer."
       },
       {
         "q": "What is there to see at Parc du Thabor?",

@@ -6,7 +6,16 @@ function mapEmbedSrc(locale: string): string {
   return `${base}${base.includes('?') ? '&' : '?'}hl=${locale}`;
 }
 
+function currentPeriodIndex(date: Date): number {
+  const m = date.getMonth();
+  if (m === 8) return 3;
+  if (m >= 2 && m <= 3) return 1;
+  if (m >= 4 && m <= 7) return 2;
+  return 0;
+}
+
 export default function LandingPageView({ content }: { content: LandingContent }) {
+  const active = currentPeriodIndex(new Date());
   return (
     <div className="min-h-screen" style={{ background: 'var(--bg-primary)' }}>
       {/* Top bar */}
@@ -147,6 +156,72 @@ export default function LandingPageView({ content }: { content: LandingContent }
                 </li>
               ))}
             </ul>
+          </div>
+        </section>
+
+        {/* Opening hours by season */}
+        <section className="px-4 sm:px-6 py-14" style={{ background: 'var(--bg-secondary)' }}>
+          <div className="max-w-3xl mx-auto">
+            <h2
+              className="font-display text-2xl sm:text-3xl font-semibold mb-3"
+              style={{ color: 'var(--text-primary)' }}
+            >
+              {content.openingHours.title}
+            </h2>
+            <p className="text-base mb-6" style={{ color: 'var(--text-secondary)' }}>
+              {content.openingHours.intro}
+            </p>
+            <div className="overflow-hidden rounded-xl border" style={{ borderColor: 'var(--border-color)' }}>
+              <table className="w-full text-left">
+                <tbody>
+                  {content.openingHours.periods.map((row, i) => (
+                    <tr
+                      key={row.label}
+                      style={{
+                        background: i === active ? 'var(--accent-soft)' : 'transparent',
+                        borderTop: i === 0 ? 'none' : '1px solid var(--border-color)',
+                      }}
+                    >
+                      <td className="px-5 py-3 text-sm" style={{ color: 'var(--text-primary)' }}>
+                        {row.label}
+                        {i === active && (
+                          <span
+                            className="ml-2 text-xs px-2 py-0.5 rounded-full"
+                            style={{ background: 'var(--accent)', color: 'var(--accent-contrast)' }}
+                          >
+                            Actuel
+                          </span>
+                        )}
+                      </td>
+                      <td className="px-5 py-3 text-sm font-semibold" style={{ color: 'var(--text-primary)' }}>
+                        {row.time}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+
+            <div
+              className="rounded-xl p-5 mt-6 flex items-start gap-4"
+              style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="2" className="flex-shrink-0 mt-0.5">
+                <path d="M3 12h18M12 3v18" />
+                <circle cx="12" cy="12" r="9" />
+              </svg>
+              <div>
+                <p className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>
+                  {content.openingHours.greenhouseTitle}
+                </p>
+                <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
+                  {content.openingHours.greenhouseTime}
+                </p>
+              </div>
+            </div>
+            <p className="mt-4 text-sm" style={{ color: 'var(--text-muted)' }}>
+              {content.openingHours.tip}
+            </p>
           </div>
         </section>
 

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Parc du Thabor Rennes | N°1 des activités & visites à Rennes (Gratuit)",
-    "description": "Que faire à Rennes ? Visitez le Parc du Thabor : 10 hectares de jardins magnifiques, roseraie, volière et événements. Entrée gratuite au cœur de Rennes."
+    "title": "Parc du Thabor à Rennes : horaires, accès et visite",
+    "description": "Préparez votre visite du Parc du Thabor à Rennes : horaires d'ouverture selon la saison, entrée gratuite, accès, roseraie, jardins et conseils pratiques."
   },
   "header": {
     "home": "Accueil",
@@ -13,8 +13,8 @@
   "hero": {
     "title": "Parc du Thabor (Rennes)",
     "subtitle": "Un joyau vert au cœur de Rennes, alliant jardins à la française et à l'anglaise",
-    "rating": "4.7(13,604)",
-    "reviewCount": "13,604 avis",
+    "rating": "4.7(13,848)",
+    "reviewCount": "13,848 avis",
     "type": "Parc municipal · Jardin botanique",
     "openMaps": "Voir sur la carte"
   },
@@ -87,15 +87,20 @@
     "addressValue": "Pl. Saint-Mélaine, 35000 Rennes, France"
   },
   "hours": {
-    "title": "Horaires et informations de visite",
-    "park": "Accès au parc",
-    "parkTime": "Ouvert tous les jours de l'aube au crépuscule (horaires variables selon saison)",
-    "bestTime": "Meilleur moment pour visiter",
-    "bestTimeSpring": "Printemps (avril-juin) : Roseraie en fleur, temps doux et agréable",
-    "bestTimeSummer": "Été (juillet-août) : Ombrage et fraîcheur, picnics recommandés",
-    "bestTimeAutumn": "Automne (septembre-novembre) : Couleurs magnifiques, jours plus calmes",
-    "bestTimeWinter": "Hiver (décembre-mars) : Ambiance paisible, architecture des arbres visible",
-    "tip": "Les serres ferment à 17h en hiver et 19h en été"
+    "title": "Horaires d'ouverture du Parc du Thabor",
+    "intro": "Le parc est ouvert toute l'année, du lever au coucher du soleil selon une grille saisonnière. Entrée libre et gratuite.",
+    "tableTitle": "Horaires par période de l'année",
+    "periodLabel": "Période",
+    "hoursLabel": "Horaires du parc",
+    "seasonal": [
+      { "period": "1er octobre – 28 février", "time": "07:30 – 18:30" },
+      { "period": "1er mars – 30 avril", "time": "07:30 – 20:00" },
+      { "period": "1er mai – 31 août", "time": "07:30 – 20:30" },
+      { "period": "1er septembre – 30 septembre", "time": "07:30 – 20:00" }
+    ],
+    "greenhouseTitle": "Serres tropicales",
+    "greenhouseTime": "Ouvertes pendant les heures du parc ; fermeture des serres à 17h en hiver et 19h en été.",
+    "tip": "Les horaires peuvent être adaptés en cas de mauvais temps. Source : Office de Tourisme de Rennes (tourisme-rennes.com)."
   },
   "tickets": {
     "title": "Tarifs",
@@ -389,7 +394,7 @@
       },
       {
         "q": "Quels sont les horaires d'ouverture du Parc du Thabor ?",
-        "a": "Le parc est ouvert tous les jours de l'aube au crépuscule, avec des horaires qui varient selon la saison. Les serres tropicales ferment à 17h en hiver et à 19h en été."
+        "a": "Le parc est ouvert toute l'année selon une grille saisonnière : 07:30–18:30 du 1er octobre au 28 février, 07:30–20:00 en mars-avril, 07:30–20:30 en mai-août, et 07:30–20:00 en septembre. Les serres tropicales ferment à 17h en hiver et 19h en été."
       },
       {
         "q": "Que voir au Parc du Thabor ?",

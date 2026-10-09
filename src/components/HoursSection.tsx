@@ -1,10 +1,23 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import type { ReactNode } from 'react';
+
+// Returns the index of the currently active seasonal period (0-3) for a date.
+function currentPeriodIndex(date: Date): number {
+  const m = date.getMonth(); // 0 = Jan
+  if (m === 8) return 3; // September
+  if (m >= 2 && m <= 3) return 1; // March–April
+  if (m >= 4 && m <= 7) return 2; // May–August
+  return 0; // October–February
+}
 
 export default function HoursSection() {
   const t = useTranslations('hours');
+  const locale = useLocale();
+  const seasonal = t.raw('seasonal') as { period: string; time: string }[];
+  const active = currentPeriodIndex(new Date());
+  const activeTime = seasonal[active]?.time;
 
   return (
     <section className="section-padding">
@@ -17,64 +30,110 @@ export default function HoursSection() {
         </h2>
         <div className="w-12 h-0.5 mb-10" style={{ background: 'var(--accent)' }} />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-          <TimeCard title={t('park')} time={t('parkTime')} iconKey="park" />
-          <TimeCard title={t('bestTime')} time={t('bestTimeSpring')} subtitle={t('bestTimeSummer')} iconKey="season" />
-          <TimeCard title={t('bestTime')} time={t('bestTimeAutumn')} subtitle={t('bestTimeWinter')} iconKey="season" />
+        {t('intro') && (
+          <p className="mb-6 text-base" style={{ color: 'var(--text-secondary)' }}>
+            {t('intro')}
+          </p>
+        )}
+
+        {/* Current period callout */}
+        {activeTime && (
+          <div
+            className="rounded-xl p-5 mb-8 flex items-center gap-4"
+            style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--accent)' }}
+          >
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="2" className="flex-shrink-0">
+              <circle cx="12" cy="12" r="9" />
+              <polyline points="12 7 12 12 15 14" />
+            </svg>
+            <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
+              <span className="font-semibold" style={{ color: 'var(--text-primary)' }}>
+                {t('hoursLabel')} : {activeTime}
+              </span>
+              {' — '}
+              {t('tip')}
+            </p>
+          </div>
+        )}
+
+        {/* Seasonal table */}
+        <h3 className="font-medium text-lg mb-4" style={{ color: 'var(--text-primary)' }}>
+          {t('tableTitle')}
+        </h3>
+        <div className="overflow-hidden rounded-xl border" style={{ borderColor: 'var(--border-color)' }}>
+          <table className="w-full text-left">
+            <thead>
+              <tr style={{ background: 'var(--bg-tertiary)' }}>
+                <th className="px-5 py-3 text-sm font-medium" style={{ color: 'var(--text-secondary)' }}>
+                  {t('periodLabel')}
+                </th>
+                <th className="px-5 py-3 text-sm font-medium" style={{ color: 'var(--text-secondary)' }}>
+                  {t('hoursLabel')}
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {seasonal.map((row, i) => {
+                const isActive = i === active;
+                return (
+                  <tr
+                    key={row.period}
+                    style={{
+                      background: isActive ? 'var(--accent-soft)' : 'transparent',
+                      borderTop: '1px solid var(--border-color)',
+                    }}
+                  >
+                    <td className="px-5 py-3 text-sm" style={{ color: 'var(--text-primary)' }}>
+                      {row.period}
+                      {isActive && (
+                        <span
+                          className="ml-2 text-xs px-2 py-0.5 rounded-full"
+                          style={{ background: 'var(--accent)', color: 'var(--accent-contrast)' }}
+                        >
+                          Actuel
+                        </span>
+                      )}
+                    </td>
+                    <td className="px-5 py-3 text-sm font-semibold" style={{ color: 'var(--text-primary)' }}>
+                      {row.time}
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
         </div>
 
         <div
-          className="rounded-xl p-5 flex items-start gap-4"
-          style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--accent)' }}
+          className="rounded-xl p-5 mt-6 flex items-start gap-4"
+          style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}
         >
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="2" className="flex-shrink-0 mt-0.5">
-            <circle cx="12" cy="12" r="10"/>
-            <line x1="12" y1="16" x2="12" y2="12"/>
-            <line x1="12" y1="8" x2="12.01" y2="8"/>
+            <path d="M3 12h18M12 3v18" />
+            <circle cx="12" cy="12" r="9" />
           </svg>
-          <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>{t('tip')}</p>
+          <div>
+            <p className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>
+              {t('greenhouseTitle')}
+            </p>
+            <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
+              {t('greenhouseTime')}
+            </p>
+          </div>
         </div>
+
+        {locale === 'fr' && (
+          <p className="mt-6">
+            <a
+              href="/fr/horaires"
+              className="text-sm font-medium hover:underline"
+              style={{ color: 'var(--accent)' }}
+            >
+              Voir le détail des horaires et périodes →
+            </a>
+          </p>
+        )}
       </div>
     </section>
-  );
-}
-
-function TimeCard({ title, time, subtitle, iconKey }: { title: string; time: string; subtitle?: string; iconKey: string }) {
-  const icons: Record<string, ReactNode> = {
-    park: (
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-        <path d="M12 2L4 12h3v4h10v-4h3L12 2z"/>
-        <rect x="10" y="16" width="4" height="6"/>
-      </svg>
-    ),
-    season: (
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-        <circle cx="12" cy="12" r="5"/>
-        <line x1="12" y1="1" x2="12" y2="3"/>
-        <line x1="12" y1="21" x2="12" y2="23"/>
-        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
-        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
-        <line x1="1" y1="12" x2="3" y2="12"/>
-        <line x1="21" y1="12" x2="23" y2="12"/>
-        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
-        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
-      </svg>
-    ),
-  };
-
-  return (
-    <div
-      className="rounded-xl p-6"
-      style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}
-    >
-      <div className="flex items-center gap-3 mb-3" style={{ color: 'var(--accent)' }}>
-        {icons[iconKey]}
-        <h3 className="font-medium" style={{ color: 'var(--text-primary)' }}>{title}</h3>
-      </div>
-      <p className="text-lg font-semibold" style={{ color: 'var(--text-primary)' }}>{time}</p>
-      {subtitle && (
-        <p className="text-sm mt-1" style={{ color: 'var(--text-secondary)' }}>{subtitle}</p>
-      )}
-    </div>
   );
 }

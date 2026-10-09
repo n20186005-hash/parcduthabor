@@ -35,6 +35,8 @@
   --border-color: var(--color-sand-200);
   --accent: var(--color-water-600);
   --accent-hover: var(--color-water-700);
+  --accent-soft: rgba(58, 122, 141, 0.12);
+  --accent-contrast: #ffffff;
   --hero-overlay: rgba(15, 32, 21, 0.55);
   --card-bg: #ffffff;
   --card-shadow: 0 1px 3px rgba(0,0,0,0.06);
@@ -56,6 +58,8 @@
   --border-color: #1e3a28;
   --accent: var(--color-water-500);
   --accent-hover: var(--color-water-600);
+  --accent-soft: rgba(74, 144, 164, 0.18);
+  --accent-contrast: #0c1a14;
   --hero-overlay: rgba(10, 20, 15, 0.7);
   --card-bg: #162d22;
   --card-shadow: 0 1px 3px rgba(0,0,0,0.3);

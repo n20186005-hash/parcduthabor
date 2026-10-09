@@ -1,5 +1,13 @@
 export type LandingFact = { label: string; value: string };
 export type LandingHighlight = { title: string; body: string };
+export type LandingHours = {
+  title: string;
+  intro: string;
+  periods: { label: string; time: string }[];
+  greenhouseTitle: string;
+  greenhouseTime: string;
+  tip: string;
+};
 
 export type LandingContent = {
   locale: 'de' | 'it' | 'es';
@@ -15,6 +23,7 @@ export type LandingContent = {
   highlights: LandingHighlight[];
   practicalTitle: string;
   practical: string[];
+  openingHours: LandingHours;
   mapTitle: string;
   mapBody: string;
   guideTitle: string;
@@ -35,7 +44,7 @@ export const deContent: LandingContent = {
   facts: [
     { label: 'Eintritt', value: 'Kostenlos' },
     { label: 'Fläche', value: '10 Hektar' },
-    { label: 'Google-Bewertung', value: 'ca. 4,7 / 5' },
+    { label: 'Google-Bewertung', value: '4,7 / 5 (13.848)' },
     { label: 'Lage', value: 'Zentrum von Rennes' },
   ],
   introTitle: 'Warum der Thabor-Garten zu den Top-Sehenswürdigkeiten von Rennes zählt',
@@ -69,6 +78,19 @@ export const deContent: LandingContent = {
     'Direkt angrenzend befindet sich die Église Saint-Mélaine; die Cathédrale Saint-Pierre ist nur wenige Gehminuten entfernt.',
     'Ein Besuch des Thabor-Gartens passt perfekt zu einem Stadtspaziergang durch die Altstadt von Rennes – am Vormittag oder späten Nachmittag ist es am schönsten.',
   ],
+  openingHours: {
+    title: 'Öffnungszeiten nach Saison',
+    intro: 'Der Park ist ganzjährig geöffnet, von Sonnenaufgang bis Sonnenuntergang nach einer jahreszeitlichen Regelung. Eintritt frei.',
+    periods: [
+      { label: '1. Oktober – 28. Februar', time: '07:30 – 18:30' },
+      { label: '1. März – 30. April', time: '07:30 – 20:00' },
+      { label: '1. Mai – 31. August', time: '07:30 – 20:30' },
+      { label: '1. September – 30. September', time: '07:30 – 20:00' },
+    ],
+    greenhouseTitle: 'Tropengewächshäuser',
+    greenhouseTime: 'Während der Parkzeiten geöffnet; die Gewächshäuser schließen im Winter um 17:00, im Sommer um 19:00 Uhr.',
+    tip: 'Bei schlechtem Wetter können die Zeiten angepasst werden. Quelle: Office de Tourisme de Rennes (tourisme-rennes.com).',
+  },
   mapTitle: 'Lageplan: Parc du Thabor in Rennes',
   mapBody: 'Interaktive Karte des Parks und seiner Umgebung im Zentrum von Rennes.',
   guideTitle: 'Plane deinen Rennes-Besuch',
@@ -94,7 +116,7 @@ export const itContent: LandingContent = {
   facts: [
     { label: 'Ingresso', value: 'Gratuito' },
     { label: 'Superficie', value: '10 ettari' },
-    { label: 'Recensioni Google', value: 'ca. 4,7 / 5' },
+    { label: 'Recensioni Google', value: '4,7 / 5 (13.848)' },
     { label: 'Posizione', value: 'Centro di Rennes' },
   ],
   introTitle: 'Perché il Thabor è uno dei luoghi da visitare assolutamente a Rennes',
@@ -128,6 +150,19 @@ export const itContent: LandingContent = {
     'Accanto al parco sorge la chiesa di Saint-Mélaine; la Cathédrale Saint-Pierre è a pochi minuti a piedi.',
     'Ideale come tappa di una passeggiata nel centro storico: la luce del mattino o del tardo pomeriggio è la più bella per le foto.',
   ],
+  openingHours: {
+    title: 'Orari di apertura per stagione',
+    intro: 'Il parco è aperto tutto l’anno, dall’alba al tramonto secondo un calendario stagionale. Ingresso gratuito.',
+    periods: [
+      { label: '1 ottobre – 28 febbraio', time: '07:30 – 18:30' },
+      { label: '1 marzo – 30 aprile', time: '07:30 – 20:00' },
+      { label: '1 maggio – 31 agosto', time: '07:30 – 20:30' },
+      { label: '1 settembre – 30 settembre', time: '07:30 – 20:00' },
+    ],
+    greenhouseTitle: 'Serre tropicali',
+    greenhouseTime: 'Aperte negli orari del parco; le serre chiudono alle 17:00 in inverno e alle 19:00 in estate.',
+    tip: 'Gli orari possono cambiare in caso di maltempo. Fonte: Office de Tourisme de Rennes (tourisme-rennes.com).',
+  },
   mapTitle: 'Mappa: Parc du Thabor a Rennes',
   mapBody: 'Mappa interattiva del parco e dei dintorni nel centro di Rennes.',
   guideTitle: 'Organizza la tua visita a Rennes',
@@ -153,7 +188,7 @@ export const esContent: LandingContent = {
   facts: [
     { label: 'Entrada', value: 'Gratuita' },
     { label: 'Superficie', value: '10 hectáreas' },
-    { label: 'Valoración Google', value: '≈ 4,7 / 5' },
+    { label: 'Valoración Google', value: '4,7 / 5 (13.848)' },
     { label: 'Ubicación', value: 'Centro de Rennes' },
   ],
   introTitle: 'Por qué el Thabor es imprescindible para tu visita a Rennes',
@@ -187,6 +222,19 @@ export const esContent: LandingContent = {
     'Junto al parque se encuentra la iglesia de Saint-Mélaine; la Catedral de San Pedro está a pocos minutos andando.',
     'Encaja perfectamente con un paseo por el casco antiguo de Rennes: la luz de la mañana o del atardecer es la mejor para las fotos.',
   ],
+  openingHours: {
+    title: 'Horarios de apertura por temporada',
+    intro: 'El parque está abierto todo el año, del amanecer al anochecer según un calendario estacional. Entrada gratuita.',
+    periods: [
+      { label: '1 de octubre – 28 de febrero', time: '07:30 – 18:30' },
+      { label: '1 de marzo – 30 de abril', time: '07:30 – 20:00' },
+      { label: '1 de mayo – 31 de agosto', time: '07:30 – 20:30' },
+      { label: '1 de septiembre – 30 de septiembre', time: '07:30 – 20:00' },
+    ],
+    greenhouseTitle: 'Invernaderos tropicales',
+    greenhouseTime: 'Abiertos en el horario del parque; los invernaderos cierran a las 17:00 en invierno y a las 19:00 en verano.',
+    tip: 'Los horarios pueden cambiar con el mal tiempo. Fuente: Office de Tourisme de Rennes (tourisme-rennes.com).',
+  },
   mapTitle: 'Mapa: Parc du Thabor en Rennes',
   mapBody: 'Mapa interactivo del parque y sus alrededores en el centro de Rennes.',
   guideTitle: 'Planifica tu visita a Rennes',

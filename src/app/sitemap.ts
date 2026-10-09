@@ -26,6 +26,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
+  // French topic pages (high-intent)
+  for (const page of ['horaires', 'acces', 'roseraie', 'plan', 'que-faire-a-rennes', 'visiter-rennes-1-jour'] as const) {
+    entries.push({
+      url: `${base}/fr/${page}`,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    });
+  }
+
   // Target-language SEO landing pages
   for (const [locale, priority] of [
     ['de', 0.8],
